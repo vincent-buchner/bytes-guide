@@ -1,0 +1,7 @@
+node_modules/
+
+# HUGO FILES
+.hugo_build.lock
+
+# HUGO DIRS
+drafts/
