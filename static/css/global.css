@@ -1,0 +1,33 @@
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+@font-face {
+    font-family: 'BigBlueTerm'; 
+    src: url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Dimitri'; 
+    src: url('/fonts/dimitri/dimitri.TTF') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+.primary-font {
+    font-family: 'Dimitri', sans-serif;
+}
+
+.secondary-font {
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+html.is-changing .transition-fade {
+    transition: opacity 0.25s;
+    opacity: 1;
+  }
+  /* Define the styles for the unloaded pages */
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
