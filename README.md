@@ -23,8 +23,14 @@ This is a personal website built using [Hugo](https://gohugo.io/), a fast and fl
    ```
 3. **Run the Development Server**:
 
+   Run the hugo server:
    ```bash
    hugo server
+   ```
+
+   Run Tailwind CLI as well:
+   ```bash
+   npx @tailwindcss/cli -i ./static/css/tailwind/input.css -o ./static/css/tailwind/output.css --watch
    ```
 
    The website will be available at `http://localhost:1313/`.
