@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4000&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Seventh Post</title>
-    <link href="/css/tailwind/output.css" rel="stylesheet" />
-    <link href="/css/global.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="/images/bytes-guide-logo.svg">
+    <title>Bytes Guide | Categories</title>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link href="/css/global.css" rel="stylesheet" />
+    <link href="/css/tailwind/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/bytes-guide-logo.svg">
   </head>
 
-  <body class="min-w-[100vw] bg-neutral-950 dark:text-white">
+  <body class="min-w-[100vw] bg-neutral-950 dark:text-white secondary-font">
 
     <main id="swup" class="transition-fade">
     
-I am the single page! <br>
-Seventh Post
-<p class="text-neutral-900"><h2 id="hello-world">Hello World</h2>
-<p>I am here</p>
-</p>
+<div class="container mx-auto px-4 py-8">
+  <button
+    onclick="history.back()"
+    class="text-neutral-500 text-sm cursor-pointer secondary-font flex justify-center items-center mb-3 hover:underline focus:outline-none focus:ring-2 focus:ring-neutral-300 dark:text-neutral-500 dark:focus:ring-neutral-800"
+  >
+    <svg
+      class="w-4 h-4 mr-2 text-neutral-500"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="lucide lucide-arrow-left-icon lucide-arrow-left"
+    >
+      <path d="m12 19-7-7 7-7" />
+      <path d="M19 12H5" />
+    </svg>
+    Go back
+  </button>
+  <h1 class="text-4xl font-bold mb-8 text-center primary-font">Categories</h1>
+
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+  </div>
+</div>
 
     </main>
 
@@ -45,7 +70,7 @@ Seventh Post
     class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full dark:bg-neutral-800 "
     tabindex="-1" aria-labelledby="drawer-navigation-label">
     <h5 id="drawer-navigation-label"
-        class="text-base secondary-font font-semibold text-neutral-500 uppercase dark:text-neutral-400">
+        class="text-base primary-font font-semibold text-neutral-500 uppercase dark:text-neutral-400">
         Menu
     </h5>
     <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
@@ -61,7 +86,7 @@ Seventh Post
     <div class="py-4 overflow-y-auto">
         <a href="/" class="flex items-center ps-2.5 mb-5">
             <img src="/images/bytes-guide-logo.svg" class="h-10 me-3 sm:h-9" alt="Byte's Guide Logo" />
-            <span class="primary-font self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span class="logo-font self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Bytes Guide
             </span>
         </a>
@@ -78,7 +103,7 @@ Seventh Post
                         <path
                             d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                     </svg>
-                    <span class="ms-3 secondary-font">Home</span>
+                    <span class="ms-3 primary-font">Home</span>
                 </a>
             </li>
             <li>
@@ -92,7 +117,7 @@ Seventh Post
                         <circle cx="12" cy="11" r="4" />
                         <rect width="18" height="18" x="3" y="3" rx="2" />
                     </svg>
-                    <span class="flex-1 ms-3 secondary-font whitespace-nowrap">About</span>
+                    <span class="flex-1 ms-3 primary-font whitespace-nowrap">About</span>
                 </a>
             </li>
             <li>
@@ -107,7 +132,7 @@ Seventh Post
                         <path d="M22 13a18.15 18.15 0 0 1-20 0" />
                         <rect width="20" height="14" x="2" y="6" rx="2" />
                     </svg>
-                    <span class="flex-1 ms-3 secondary-font whitespace-nowrap">Portfolio</span>
+                    <span class="flex-1 ms-3 primary-font whitespace-nowrap">Portfolio</span>
                 </a>
             </li>
             <li>
@@ -122,7 +147,7 @@ Seventh Post
                         <path d="M22 10v6" />
                         <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
                     </svg>
-                    <span class="flex-1 secondary-font ms-3 whitespace-nowrap">Lessons</span>
+                    <span class="flex-1 primary-font ms-3 whitespace-nowrap">Lessons</span>
                 </a>
             </li>
             <li>
@@ -137,7 +162,7 @@ Seventh Post
                             d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z" />
                         <path d="m15 5 3 3" />
                     </svg>
-                    <span class="flex-1 ms-3 secondary-font whitespace-nowrap">Blog</span>
+                    <span class="flex-1 ms-3 primary-font whitespace-nowrap">Blog</span>
                 </a>
             </li>
             <li>
@@ -154,7 +179,7 @@ Seventh Post
                         <path d="M15 6h.01" />
                         <path d="M18 9h.01" />
                     </svg>
-                    <span class="flex-1 secondary-font ms-3 whitespace-nowrap">Author’s Corner</span>
+                    <span class="flex-1 primary-font ms-3 whitespace-nowrap">Author’s Corner</span>
                 </a>
             </li>
         </ul>

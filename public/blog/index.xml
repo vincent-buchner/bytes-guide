@@ -1,61 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Welcome</title>
-    <link>http://localhost:4000/blog/</link>
-    <description>Recent content in Blogs on Welcome</description>
+    <title>View Blogs on Welcome</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in View Blogs on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Apr 2025 20:13:03 -0500</lastBuildDate>
-    <atom:link href="http://localhost:4000/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Apr 2025 18:53:33 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Seventh Post</title>
-      <link>http://localhost:4000/blog/seventh-post/</link>
-      <pubDate>Sun, 06 Apr 2025 20:13:03 -0500</pubDate>
-      <guid>http://localhost:4000/blog/seventh-post/</guid>
-      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;&#xA;&lt;p&gt;I am here&lt;/p&gt;</description>
+      <title>Test</title>
+      <link>http://localhost:1313/blog/test/</link>
+      <pubDate>Tue, 08 Apr 2025 18:53:33 -0500</pubDate>
+      <guid>http://localhost:1313/blog/test/</guid>
+      <description></description>
     </item>
     <item>
-      <title>Sixth Post</title>
-      <link>http://localhost:4000/blog/sixth-post/</link>
-      <pubDate>Sun, 06 Apr 2025 16:35:58 -0500</pubDate>
-      <guid>http://localhost:4000/blog/sixth-post/</guid>
-      <description>&lt;p&gt;Hello World&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Exciting Post</title>
-      <link>http://localhost:4000/blog/fifth-post/</link>
-      <pubDate>Sat, 05 Apr 2025 17:06:32 -0500</pubDate>
-      <guid>http://localhost:4000/blog/fifth-post/</guid>
-      <description>&lt;p&gt;Please Work!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>http://localhost:4000/blog/first-post/</link>
-      <pubDate>Sat, 05 Apr 2025 17:06:32 -0500</pubDate>
-      <guid>http://localhost:4000/blog/first-post/</guid>
-      <description>&lt;p&gt;I am blog post&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fourth Post</title>
-      <link>http://localhost:4000/blog/fourth-post/</link>
-      <pubDate>Sat, 05 Apr 2025 17:06:32 -0500</pubDate>
-      <guid>http://localhost:4000/blog/fourth-post/</guid>
-      <description>&lt;p&gt;Claude!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Second Post</title>
-      <link>http://localhost:4000/blog/second-post/</link>
-      <pubDate>Sat, 05 Apr 2025 17:06:32 -0500</pubDate>
-      <guid>http://localhost:4000/blog/second-post/</guid>
-      <description>&lt;p&gt;Whoa&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Third Post</title>
-      <link>http://localhost:4000/blog/third-post/</link>
-      <pubDate>Sat, 05 Apr 2025 17:06:32 -0500</pubDate>
-      <guid>http://localhost:4000/blog/third-post/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+      <title>Welcome to Bytes Guide!</title>
+      <link>http://localhost:1313/blog/welcome-to-bytes-guide/</link>
+      <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
+      <guid>http://localhost:1313/blog/welcome-to-bytes-guide/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Launch. Okay here we go!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thank you for joining me&lt;/p&gt;&#xA;&lt;h1 id=&#34;will-this-work&#34;&gt;Will this work?&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

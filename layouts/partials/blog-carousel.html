@@ -29,14 +29,14 @@
             {{ end }}
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
+                class="mb-2 text-lg primary-font font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ $post.Title }}
               </h5>
               <p
-                class="mb-3 text-sm text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 text-sm secondary-font text-gray-700 dark:text-gray-400 flex-grow"
               >
-                {{ $post.Summary | truncate 100 }}
+                {{ $post.Description | truncate 100 }}
               </p>
               <div class="mt-auto flex justify-between items-center">
                 <span class="text-xs text-gray-500"
@@ -44,7 +44,7 @@
                 >
                 <a
                   href="{{ $post.Permalink }}"
-                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="inline-flex items-center secondary-font px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Read more
                   <svg
@@ -164,17 +164,17 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white"
+                class="mb-2 text-lg primary-font font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ .Title }}
               </h5>
               <p
-                class="mb-3 text-sm text-gray-700 dark:text-gray-400 flex-grow"
+                class="mb-3 text-sm secondary-font text-gray-700 dark:text-gray-400 flex-grow"
               >
                 {{ .Description | truncate 100 }}
               </p>
               <div class="mt-auto flex justify-between items-center">
-                <span class="text-xs text-gray-500"
+                <span class="text-xs secondary-font text-gray-500"
                   >{{ .Date.Format "Jan 2, 2006" }}</span
                 >
                 <a
@@ -300,7 +300,7 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 secondary-font text-lg font-bold tracking-tight text-gray-900 dark:text-white"
+                class="mb-2 primary-font text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ .Title }}
               </h5>

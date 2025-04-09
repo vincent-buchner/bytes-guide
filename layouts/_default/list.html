@@ -1,0 +1,103 @@
+{{ define "main" }}
+<div class="container mx-auto px-4 py-8">
+  <button
+    onclick="history.back()"
+    class="text-neutral-500 text-sm cursor-pointer secondary-font flex justify-center items-center mb-3 hover:underline focus:outline-none focus:ring-2 focus:ring-neutral-300 dark:text-neutral-500 dark:focus:ring-neutral-800"
+  >
+    <svg
+      class="w-4 h-4 mr-2 text-neutral-500"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="lucide lucide-arrow-left-icon lucide-arrow-left"
+    >
+      <path d="m12 19-7-7 7-7" />
+      <path d="M19 12H5" />
+    </svg>
+    Go back
+  </button>
+  <h1 class="text-4xl font-bold mb-8 text-center primary-font">{{ .Title }}</h1>
+
+  <!-- Blog post grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range .Pages }}
+
+    <div
+      class="max-w-sm rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-700"
+    >
+      {{ if .Params.image }}
+      <a href="{{ .Permalink }}">
+        <img
+          class="rounded-t-lg w-full h-48 object-cover"
+          src="{{ .Params.image }}"
+          alt="{{ .Title }}"
+        />
+      </a>
+      {{ else }}
+      <a href="{{ .Permalink }}">
+        <div
+          class="rounded-t-lg w-full h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
+        >
+          <svg
+            class="w-10 h-10 text-gray-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+      </a>
+      {{ end }}
+      <div class="p-5">
+        <a href="{{.Permalink}}">
+          <h5
+            class="text-2xl font-bold primary-font tracking-tight text-neutral-900 dark:text-white"
+          >
+            {{ .Title }}
+          </h5>
+          <span class="text-sm secondary-font text-gray-500 mb-4"
+            >{{ .Date.Format "Jan 2, 2006" }}</span
+          >
+        </a>
+        <p class="my-3 seondary-font font-normal dark:text-neutral-400">
+          {{ .Description | truncate 100 }}
+        </p>
+        <a
+          href="{{.Permalink}}"
+          class="inline-flex secondary-font items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Read more
+          <svg
+            class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</div>
+{{end}}

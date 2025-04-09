@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors-Corners on Welcome</title>
-    <link>http://localhost:4000/authors-corner/</link>
+    <link>http://localhost:1313/authors-corner/</link>
     <description>Recent content in Authors-Corners on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Apr 2025 17:08:45 -0500</lastBuildDate>
-    <atom:link href="http://localhost:4000/authors-corner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors-corner/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arthur Morgan</title>
-      <link>http://localhost:4000/authors-corner/arthur-morgan/</link>
-      <pubDate>Sat, 05 Apr 2025 17:08:45 -0500</pubDate>
-      <guid>http://localhost:4000/authors-corner/arthur-morgan/</guid>
+      <title>Welcome to Bytes Guide!</title>
+      <link>http://localhost:1313/authors-corner/arthur-morgan/</link>
+      <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
+      <guid>http://localhost:1313/authors-corner/arthur-morgan/</guid>
       <description></description>
     </item>
   </channel>

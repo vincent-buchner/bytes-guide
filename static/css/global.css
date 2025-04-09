@@ -1,5 +1,5 @@
-@plugin "flowbite/plugin";
-@source "../../node_modules/flowbite";
+/* @plugin "flowbite/plugin";
+@source "../../node_modules/flowbite"; */
 
 @font-face {
     font-family: 'BigBlueTerm'; 
@@ -15,12 +15,53 @@
     font-style: normal;  
 }
 
-.primary-font {
+@font-face {
+    font-family: 'Cousine'; 
+    src: url('/fonts/Cousine/CousineNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+/* h1 {
+    font-size: 36px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Cousine', sans-serif;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Cousine', sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: 'Cousine', sans-serif;
+} */
+
+.logo-font {
     font-family: 'Dimitri', sans-serif;
 }
 
-.secondary-font {
+.primary-font {
     font-family: 'BigBlueTerm', sans-serif;
+}
+
+.secondary-font {
+    font-family: 'Cousine', sans-serif;
 }
 
 html.is-changing .transition-fade {

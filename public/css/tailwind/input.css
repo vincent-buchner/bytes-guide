@@ -1,2 +1,57 @@
 @import "tailwindcss";
-@import "flowbite/src/themes/default";
+/* @import "flowbite/src/themes/default"; */
+
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BigBlueTerm'; 
+    src: url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Dimitri'; 
+    src: url('/fonts/dimitri/dimitri.TTF') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Cousine'; 
+    src: url('/fonts/Cousine/CousineNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@layer base {
+h1 {
+    font-size: 36px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'BigBlueTerm', sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Cousine', sans-serif;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Cousine', sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: 'Cousine', sans-serif;
+}
+}
