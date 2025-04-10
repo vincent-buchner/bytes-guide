@@ -9,7 +9,7 @@
     <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to Bytes Guide!</title>
+      <title>Django: The Basics</title>
       <link>http://localhost:1313/lessons/introduction/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
       <guid>http://localhost:1313/lessons/introduction/</guid>

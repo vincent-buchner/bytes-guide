@@ -54,4 +54,8 @@ h6 {
     font-size: 14px;
     font-family: 'Cousine', sans-serif;
 }
+
+p {
+    @apply py-3
+}
 }

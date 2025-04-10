@@ -29,15 +29,11 @@
             {{ end }}
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 text-lg primary-font font-bold tracking-tight text-gray-900 dark:text-white"
+                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                {{ $post.Title }}
+                {{ $post.Title | truncate 65 }}
+
               </h5>
-              <p
-                class="mb-3 text-sm secondary-font text-gray-700 dark:text-gray-400 flex-grow"
-              >
-                {{ $post.Description | truncate 100 }}
-              </p>
               <div class="mt-auto flex justify-between items-center">
                 <span class="text-xs text-gray-500"
                   >{{ $post.Date.Format "Jan 2, 2006" }}</span
@@ -164,15 +160,10 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 text-lg primary-font font-bold tracking-tight text-gray-900 dark:text-white"
+                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                {{ .Title }}
+                {{ .Title | truncate 65 }}
               </h5>
-              <p
-                class="mb-3 text-sm secondary-font text-gray-700 dark:text-gray-400 flex-grow"
-              >
-                {{ .Description | truncate 100 }}
-              </p>
               <div class="mt-auto flex justify-between items-center">
                 <span class="text-xs secondary-font text-gray-500"
                   >{{ .Date.Format "Jan 2, 2006" }}</span
@@ -300,15 +291,10 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="mb-2 primary-font text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                {{ .Title }}
+                {{ .Title | truncate 65 }}
               </h5>
-              <p
-                class="mb-3 secondary-font text-sm text-neutral-700 dark:text-neutral-400 flex-grow"
-              >
-                {{ .Description | truncate 100 }}
-              </p>
               <div class="mt-auto flex justify-between items-center">
                 <span class="text-xs secondary-font text-gray-500"
                   >{{ .Date.Format "Jan 2, 2006" }}</span

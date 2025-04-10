@@ -21,36 +21,12 @@
     font-weight: normal; 
     font-style: normal;  
 }
-
-/* h1 {
-    font-size: 36px;
-    font-family: 'BigBlueTerm', sans-serif;
+@font-face {
+    font-family: 'Cousine'; 
+    src: url('/fonts/Cousine/CousineNerdFontMono-Bold.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;  
 }
-
-h2 {
-    font-size: 30px;
-    font-family: 'BigBlueTerm', sans-serif;
-}
-
-h3 {
-    font-size: 24px;
-    font-family: 'BigBlueTerm', sans-serif;
-}
-
-h4 {
-    font-size: 20px;
-    font-family: 'Cousine', sans-serif;
-}
-
-h5 {
-    font-size: 16px;
-    font-family: 'Cousine', sans-serif;
-}
-
-h6 {
-    font-size: 14px;
-    font-family: 'Cousine', sans-serif;
-} */
 
 .logo-font {
     font-family: 'Dimitri', sans-serif;

@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | About</title>
+    <title>Bytes Guide | About The Author</title>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
@@ -18,7 +18,218 @@
 
     <main id="swup" class="transition-fade">
     
-    Hello World, I am the about
+<style>
+  .blob-red {
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    animation: blob-movement 20s ease-in-out infinite;
+  }
+  .blob-green {
+    background-color: rgba(0, 255, 0, 0.3);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: blob-movement 15s ease-in-out infinite alternate;
+  }
+  .blob-blue {
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 40% 60% 70% 30% / 60% 40% 30% 60%;
+    animation: blob-movement 18s ease-in-out infinite alternate-reverse;
+  }
+  @keyframes blob-movement {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(5%, 5%) scale(1.1);
+    }
+    66% {
+      transform: translate(-5%, -2%) scale(0.9);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+</style>
+
+<div class="h-screen flex flex-col md:flex-row">
+  
+  <div
+    class="w-full md:w-1/2 flex flex-col justify-center items-start p-8 md:p-16"
+  >
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Vincent Buchner</h1>
+    <h2 class="text-xl md:text-2xl font-light mb-8 text-gray-300">
+      Software Engineer / Fullstack Developer
+    </h2>
+
+    
+    <div class="flex flex-col sm:flex-row gap-4 mb-6">
+      
+      <button
+        id="dropdownDefaultButton"
+        data-dropdown-toggle="dropdown"
+        class="inline-flex secondary-font justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+        type="button"
+      >
+        Contact Me
+        <svg
+          class="w-4 h-4 ml-2"
+          aria-hidden="true"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          ></path>
+        </svg>
+      </button>
+
+      
+      <div
+        id="dropdown"
+        class="z-10 hidden bg-gray-800 divide-y divide-gray-700 rounded-lg shadow w-44"
+      >
+        <ul
+          class="py-2 text-sm text-gray-200"
+          aria-labelledby="dropdownDefaultButton"
+        >
+          <li>
+            <a
+              href="mailto:vincentbuchner01@gmail.com"
+              class="block px-4 py-2 hover:bg-gray-700"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/vincent-buchner"
+              class="block px-4 py-2 hover:bg-gray-700"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vincent-buchner"
+              class="block px-4 py-2 hover:bg-gray-700"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://app.daily.dev/vincentbuchner"
+              class="block px-4 py-2 hover:bg-gray-700"
+              >Daily.dev</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      
+      <a
+        href="/portfolio"
+        class="py-3 px-5 sm:ms-4 secondary-font text-sm font-medium text-gray-900 focus:outline-none bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+      >
+        View Portfolio
+      </a>
+    </div>
+
+    <p class="text-gray-300 mb-8 max-w-lg">
+        Computer science student and aspiring software architect with hands-on experience in research, product development, and end-to-end application design. Proficient in React, Django, and machine-learning solutions that bring ideas to life.
+    </p>
+  </div>
+
+  <div
+    class="w-full md:w-1/2 relative overflow-hidden flex items-center justify-center"
+  >
+    
+    <div class="blob-red absolute w-72 h-72 top-1/4 left-1/5 z-0"></div>
+    <div class="blob-green absolute w-81 h-81 top-1/4 left-1/3 z-0"></div>
+    <div class="blob-blue absolute w-90 h-90 top-1/3 left-1/4 z-0"></div>
+
+    
+    <div
+      class="relative z-10 rounded-full overflow-hidden border-4 border-white/20 w-80 h-80 md:w-100 md:h-100"
+    >
+      <img
+        src="/images/about-image.png"
+        alt="Vincent Buchner"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+</div>
+
+
+<div class="container mx-auto px-8 py-8">
+    <h1 id="hello--im-vincent">Hello 👋 I&rsquo;m Vincent!</h1>
+<p>Chances are that if your on this page you:</p>
+<ul>
+<li>A. Mis-clicked</li>
+<li>B. Are Lost</li>
+<li>C. My Mom</li>
+<li>D. All the above (sorry, mom)</li>
+</ul>
+<p>But in the off chance that you arn&rsquo;t one of those options, <strong>hello and welcome!</strong> This is my hybrid-portfolio-resume-blog thingamabob. At the time of writing this, I&rsquo;m not quite sure what it&rsquo;ll be. Could be a blog, could just be an online resume, or just another side project that gets the boot. Who&rsquo;s to say? But what I will say, regardless of what it may be, is that I&rsquo;m proud of it. I made it. I learned it. I brought it to life. That, fundamentally, is what drew me to programming: creation. Sure, other developers may have a more advanced platform (not to mention the drag-n-drop website editors), but I like my &lsquo;ugly&rsquo; creation. This is something that, to me, can not be taken away. There&rsquo;s not an amount of rejection emails or AI hype that will rob me from the pride I have for this project.</p>
+<p>Any who, that was a lot of the brain! But I hope it gives you a sense of what I want this project to be and what I want to bring to the table. With that, check out my <a href="/portfolio">portfolio</a> if your curious about my experience or go to the <a href="/home">home page</a> if you want to explore more. Scroll around and let me know what you think: I don&rsquo;t <em>byte</em>! Get it? Okay, I&rsquo;ll stop&hellip;</p>
+
+</div>
+    
+    <div class="min-h-screen flex flex-col items-center justify-center py-16 px-4">
+      <h2 class="text-4xl font-bold mb-16 text-center">I have experience in...</h2>
+      
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+          
+          <div class="pillar-container flex flex-col items-center text-center group">
+              <div class="icon-circle-red bg-gray-800 rounded-full w-32 h-32 flex items-center justify-center mb-6 border-2 border-red-500/30 transition-all duration-300">
+                  <div class="pillar-icon text-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop-icon lucide-laptop"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg>
+                  </div>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-white group-hover:text-red-400 transition-colors duration-300">Web Development</h3>
+              <p class="text-gray-300 max-w-xs">
+                  Creating responsive, performant web applications using modern frameworks and technologies.
+                  Specialized in Next.js, Django, and .NET
+              </p>
+          </div>
+          
+          
+          <div class="pillar-container flex flex-col items-center text-center group">
+              <div class="icon-circle-green bg-gray-800 rounded-full w-32 h-32 flex items-center justify-center mb-6 border-2 border-green-500/30 transition-all duration-300">
+                  <div class="pillar-icon text-green-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot-icon lucide-bot"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+                  </div>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-white group-hover:text-green-400 transition-colors duration-300">AI Integration</h3>
+              <p class="text-gray-300 max-w-xs">
+                  Implementing machine learning and AI systems to solve the problem.
+                  Focused on practical applications and experimental AI development.
+              </p>
+          </div>
+          
+          
+          <div class="pillar-container flex flex-col items-center text-center group">
+              <div class="icon-circle-blue bg-gray-800 rounded-full w-32 h-32 flex items-center justify-center mb-6 border-2 border-blue-500/30 transition-all duration-300">
+                  <div class="pillar-icon text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-icon lucide-cloud"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                  </div>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors duration-300">Cloud Architecture</h3>
+              <p class="text-gray-300 max-w-xs">
+                  Designing and implementing scalable cloud solutions on AWS and Azure.
+                  Experienced in serverless architecture and containerization with Docker.
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid flex flex-col items-center justify-center mt-16">
+    <h1 class="text-2xl">
+      Oh, you're still here?
+    </h1>
+    <p>Well, in that case you should really go checkout my <a href="/portfolio" class="underline">portfolio</a>.</p>
+  </div>
 
     </main>
 
