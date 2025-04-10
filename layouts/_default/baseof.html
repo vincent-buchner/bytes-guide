@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bytes Guide | {{ .Title }}</title>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -22,10 +21,32 @@
     {{ partial "footer.html" . }}
 
     {{ partial "sidebar" . }}
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <!-- Import Swup as ESM -->
     <script type="module">
-        {{/*  import Swup from 'https://unpkg.com/swup@4?module';
-        const swup = new Swup();  */}}
+        import Swup from 'https://unpkg.com/swup@4?module';
+        const swup = new Swup();
+
+        function initFlowbiteComponents() {
+          // Check if there are any carousels on the page
+          const carousels = document.querySelectorAll('[data-carousel]');
+          const dropdowns = document.querySelectorAll('[data-dropdown-toggle]');
+
+          if (typeof initFlowbite === 'function') {
+              initFlowbite();
+          }
+      }
+      
+      // Initialize components on first page load
+      document.addEventListener('DOMContentLoaded', function() {
+          initFlowbiteComponents();
+      });
+      
+      // Reinitialize components after each page transition
+      swup.hooks.on('content:replace', function() {
+          initFlowbiteComponents();
+      });
     </script>
 </body>
 </html>

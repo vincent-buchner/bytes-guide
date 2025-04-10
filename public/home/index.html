@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bytes Guide | Home</title>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -44,6 +43,7 @@
     id="blog-carousel-mobile"
     class="relative w-full md:hidden"
     data-carousel="static"
+    data-no-swup
   >
     <div class="relative h-96 overflow-hidden rounded-lg">
       
@@ -2261,9 +2261,32 @@
         </ul>
     </div>
 </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     
     <script type="module">
-        
+        import Swup from 'https://unpkg.com/swup@4?module';
+        const swup = new Swup();
+
+        function initFlowbiteComponents() {
+          
+          const carousels = document.querySelectorAll('[data-carousel]');
+          const dropdowns = document.querySelectorAll('[data-dropdown-toggle]');
+
+          if (typeof initFlowbite === 'function') {
+              initFlowbite();
+          }
+      }
+      
+      
+      document.addEventListener('DOMContentLoaded', function() {
+          initFlowbiteComponents();
+      });
+      
+      
+      swup.hooks.on('content:replace', function() {
+          initFlowbiteComponents();
+      });
     </script>
 </body>
 </html>

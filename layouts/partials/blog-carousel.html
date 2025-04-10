@@ -7,6 +7,7 @@
     id="blog-carousel-mobile"
     class="relative w-full md:hidden"
     data-carousel="static"
+    data-no-swup
   >
     <div class="relative h-96 overflow-hidden rounded-lg">
       {{ $blogPosts := first 12 (where .Site.RegularPages "Section" "blog") }}
