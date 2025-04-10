@@ -1,3 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Welcome'
+
+[markup]
+    [markup.goldmark.renderer]
+      unsafe = true
