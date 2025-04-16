@@ -6,14 +6,42 @@
     <description>Recent content in Projects on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 15:15:44 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Best Project</title>
-      <link>http://localhost:1313/portfolio/projects/some-cool-project/</link>
-      <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/some-cool-project/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Launch. Okay here we go!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thank you for joining me&lt;/p&gt;&#xA;&lt;h1 id=&#34;will-this-work&#34;&gt;Will this work?&lt;/h1&gt;</description>
+      <title>Driftcode</title>
+      <link>http://localhost:1313/portfolio/projects/driftcode/</link>
+      <pubDate>Thu, 10 Apr 2025 15:15:44 -0500</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/driftcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bytes Guide</title>
+      <link>http://localhost:1313/portfolio/projects/bytes-guide/</link>
+      <pubDate>Thu, 10 Apr 2025 15:14:54 -0500</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/bytes-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skol Norse News</title>
+      <link>http://localhost:1313/portfolio/projects/skol-norse-news/</link>
+      <pubDate>Thu, 10 Apr 2025 15:14:40 -0500</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/skol-norse-news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rizzopedia</title>
+      <link>http://localhost:1313/portfolio/projects/rizzopedia/</link>
+      <pubDate>Thu, 10 Apr 2025 15:14:26 -0500</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/rizzopedia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rate My Caf</title>
+      <link>http://localhost:1313/portfolio/projects/rate-my-caf/</link>
+      <pubDate>Thu, 10 Apr 2025 15:14:18 -0500</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/rate-my-caf/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

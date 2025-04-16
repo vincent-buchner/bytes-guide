@@ -6,14 +6,7 @@
     <description>Recent content in Resume on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome to Bytes Guide!</title>
-      <link>http://localhost:1313/portfolio/test-project/</link>
-      <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>http://localhost:1313/portfolio/test-project/</guid>
-      <description>&lt;p&gt;I am project&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

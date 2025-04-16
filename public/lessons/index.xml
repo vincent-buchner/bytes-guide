@@ -6,8 +6,22 @@
     <description>Recent content in Lessons on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 16 Apr 2025 13:56:49 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>College but Cheap Pt2</title>
+      <link>http://localhost:1313/lessons/college-but-cheap-pt2/</link>
+      <pubDate>Wed, 16 Apr 2025 13:56:49 -0500</pubDate>
+      <guid>http://localhost:1313/lessons/college-but-cheap-pt2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part 1: A $INSERT CS Degree (and the knowledge is free!)</title>
+      <link>http://localhost:1313/lessons/college-but-cheap/</link>
+      <pubDate>Thu, 10 Apr 2025 15:13:15 -0500</pubDate>
+      <guid>http://localhost:1313/lessons/college-but-cheap/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this lesson, I&amp;rsquo;ll go over sorta a roadmap for the material you can expect to cover while in or preparing for college. For reference, I am a senior at Luther College in Decorah, IA and I majored in Computer Science and minored in Data Science. I am graduating this May with a 3.89 GPA, an additional scholarship in CS, and a few internships under my belt. Of course there are people who have done better, but hey, I&amp;rsquo;m happy with the outcome.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Django: The Basics</title>
       <link>http://localhost:1313/lessons/introduction/</link>

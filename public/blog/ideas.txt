@@ -1,0 +1,4 @@
+1. Gleam over JavaScript
+2. Before you start you're next project, learn D2
+3. 
+4. 

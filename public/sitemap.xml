@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/lessons/college-but-cheap-pt2/</loc>
+    <lastmod>2025-04-16T13:56:49-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lessons/</loc>
+    <lastmod>2025-04-16T13:56:49-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-16T13:56:49-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/driftcode/</loc>
+    <lastmod>2025-04-10T15:15:44-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/bytes-guide/</loc>
+    <lastmod>2025-04-10T15:14:54-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/skol-norse-news/</loc>
+    <lastmod>2025-04-10T15:14:40-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/rizzopedia/</loc>
+    <lastmod>2025-04-10T15:14:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/rate-my-caf/</loc>
+    <lastmod>2025-04-10T15:14:18-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lessons/college-but-cheap/</loc>
+    <lastmod>2025-04-10T15:13:15-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2025-04-09T19:40:28-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-09T19:40:28-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-04-09T14:26:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/fifth/</loc>
-    <lastmod>2025-04-09T14:26:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/fourth/</loc>
-    <lastmod>2025-04-09T14:26:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/second/</loc>
-    <lastmod>2025-04-09T14:26:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/third/</loc>
     <lastmod>2025-04-09T14:26:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/projects/</loc>
@@ -29,19 +41,10 @@
     <loc>http://localhost:1313/authors-corner/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/some-cool-project/</loc>
-    <lastmod>2025-04-08T18:25:49-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/lessons/introduction/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lessons/</loc>
-    <lastmod>2025-04-08T18:25:49-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/welcome-to-bytes-guide/</loc>
-    <lastmod>2025-04-08T18:25:49-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/test-project/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors-corner/arthur-morgan/</loc>

@@ -1,0 +1,11 @@
+{{ $type := .Get "type" | default "" }}
+{{ $title := .Get "title" | default "Note" }}
+{{ $icon := .Get "icon" | default "" }}
+{{ $border := .Get "border" | default "" }}
+{{ $message := .Inner }}
+
+{{ partial "components/alert-banner.html" (dict 
+  "type" $type 
+  "title" $title 
+  "message" $message
+) }}
