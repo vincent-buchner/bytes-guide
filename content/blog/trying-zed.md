@@ -1,6 +1,6 @@
 +++
 date = '2025-04-25T18:13:40-05:00'
-draft = true
+draft = false
 title = 'Can Zed Replace Your Code Editor?'
 description = "Zed is the next-gen text editor built in Rust. It has all your key features like AI integration and community extensions. And, it's like, really fast."
 [params]

@@ -1,6 +1,6 @@
 +++
 date = '2025-04-10T15:14:40-05:00'
-draft = true
+draft = false
 title = 'Skol Norse News: News to Video Platform'
 description = ''
 [params]

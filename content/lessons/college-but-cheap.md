@@ -1,6 +1,6 @@
 +++
 date = '2025-04-10T15:13:15-05:00'
-draft = true
+draft = false
 title = 'A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1'
 description = "As a soon to be college grad, I look back at these last four years and say, 'Great, but what did I learn?'. The answer to that is here: I've curated a list of online courses that I think are an one-to-one experience to what you'll learn in college. I'll have both free and paid resources, where the paid one usually results in some sort of certificate for completion. This lesson is designed for students either in or about to go to college, hoping to accelerate their learning."
 [params]

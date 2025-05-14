@@ -1,6 +1,6 @@
 +++
 date = '2025-04-25T18:43:06-05:00'
-draft = true
+draft = false
 title = 'Why I’m Excited About Gleam'
 description = "The Gleam Programming is a statically typed, functional programming language designed for simplicity and concurrency. Pretty neat, and they got a cool mascot."
 [params]

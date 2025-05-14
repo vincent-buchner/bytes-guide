@@ -1,6 +1,6 @@
 +++
 date = '2025-04-10T15:14:18-05:00'
-draft = true
+draft = false
 title = 'Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled'
 description = ''
 [params]

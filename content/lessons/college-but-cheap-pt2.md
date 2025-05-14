@@ -1,6 +1,6 @@
 +++
 date = '2025-04-16T13:56:49-05:00'
-draft = true
+draft = false
 title = 'A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2'
 description = "This is part two of my cheaper CS degree series. I am a soon to be college grad looking to reflect on my degree and provide a one-to-one path to what I've studied. For freshman and sophomore year courses, refer back to part one!"
 [params]

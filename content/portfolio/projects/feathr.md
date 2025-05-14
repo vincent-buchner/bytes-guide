@@ -1,6 +1,6 @@
 +++
 date = '2025-04-29T16:48:26-05:00'
-draft = true
+draft = false
 title = 'Feathr: A Physics Based Social Network'
 description = ''
 [params]
