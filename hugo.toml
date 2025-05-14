@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bytes-guide.netlify.app/'
 languageCode = 'en-us'
-title = 'Welcome'
+title = 'Welcome To Bytes Guide'
 
 [markup]
     [markup.goldmark.renderer]
