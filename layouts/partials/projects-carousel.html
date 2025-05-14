@@ -9,12 +9,13 @@
     data-carousel="static"
   >
     <div class="relative h-96 overflow-hidden rounded-lg">
-      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq" "portfolio/projects/") "Kind" "page") }}
-      {{ range $index, $post := $blogPosts }}
+      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq"
+      "portfolio/projects/") "Kind" "page") }} {{ range $index, $post :=
+      $blogPosts }}
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="h-full">
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col h-full"
+            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col h-full"
           >
             {{ with $post.Params.image }}
             <img
@@ -24,12 +25,12 @@
             />
             {{ else }}
             <div
-              class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+              class="rounded-t-lg h-48 w-full bg-neutralral-200 dark:bg-neutral-700"
             ></div>
             {{ end }}
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ $post.Title | truncate 65 }}
               </h5>
@@ -128,21 +129,21 @@
     data-carousel="static"
   >
     <div class="relative h-96 overflow-hidden rounded-lg">
-      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq" "portfolio/projects/") "Kind" "page") }}
-      {{ $totalPosts := len $blogPosts }} {{ $postsPerSlide := 2 }} {{
-      $totalSlides := div $totalPosts $postsPerSlide }} {{ if gt (mod
-      $totalPosts $postsPerSlide) 0 }} {{ $totalSlides = add $totalSlides 1 }}
-      {{ end }} {{ range $slideIndex := seq 0 (sub $totalSlides 1) }} {{
-      $startIdx := mul $slideIndex $postsPerSlide }} {{ $endIdx := add $startIdx
-      $postsPerSlide }} {{ if gt $endIdx $totalPosts }} {{ $endIdx = $totalPosts
-      }} {{ end }}
+      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq"
+      "portfolio/projects/") "Kind" "page") }} {{ $totalPosts := len $blogPosts
+      }} {{ $postsPerSlide := 2 }} {{ $totalSlides := div $totalPosts
+      $postsPerSlide }} {{ if gt (mod $totalPosts $postsPerSlide) 0 }} {{
+      $totalSlides = add $totalSlides 1 }} {{ end }} {{ range $slideIndex := seq
+      0 (sub $totalSlides 1) }} {{ $startIdx := mul $slideIndex $postsPerSlide
+      }} {{ $endIdx := add $startIdx $postsPerSlide }} {{ if gt $endIdx
+      $totalPosts }} {{ $endIdx = $totalPosts }} {{ end }}
 
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="grid grid-cols-2 gap-4 h-full">
           {{ range $postIndex := seq $startIdx (sub $endIdx 1) }} {{ with index
           $blogPosts $postIndex }}
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col"
+            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col"
           >
             <a href="{{ .Permalink }}">
               {{ with .Params.image }}
@@ -153,13 +154,13 @@
               />
               {{ else }}
               <div
-                class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+                class="rounded-t-lg h-48 w-full bg-neutralral-200 dark:bg-neutral-700"
               ></div>
               {{ end }}
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ .Title | truncate 65 }}
               </h5>
@@ -259,14 +260,14 @@
     data-carousel="static"
   >
     <div class="relative h-96 overflow-hidden">
-      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq" "portfolio/projects/") "Kind" "page") }}
-      {{ $totalPosts := len $blogPosts }} {{ $postsPerSlide := 4 }} {{
-      $totalSlides := div $totalPosts $postsPerSlide }} {{ if gt (mod
-      $totalPosts $postsPerSlide) 0 }} {{ $totalSlides = add $totalSlides 1 }}
-      {{ end }} {{ range $slideIndex := seq 0 (sub $totalSlides 1) }} {{
-      $startIdx := mul $slideIndex $postsPerSlide }} {{ $endIdx := add $startIdx
-      $postsPerSlide }} {{ if gt $endIdx $totalPosts }} {{ $endIdx = $totalPosts
-      }} {{ end }}
+      {{ $blogPosts := first 12 (where (where .Site.RegularPages "File.Dir" "eq"
+      "portfolio/projects/") "Kind" "page") }} {{ $totalPosts := len $blogPosts
+      }} {{ $postsPerSlide := 4 }} {{ $totalSlides := div $totalPosts
+      $postsPerSlide }} {{ if gt (mod $totalPosts $postsPerSlide) 0 }} {{
+      $totalSlides = add $totalSlides 1 }} {{ end }} {{ range $slideIndex := seq
+      0 (sub $totalSlides 1) }} {{ $startIdx := mul $slideIndex $postsPerSlide
+      }} {{ $endIdx := add $startIdx $postsPerSlide }} {{ if gt $endIdx
+      $totalPosts }} {{ $endIdx = $totalPosts }} {{ end }}
 
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="grid grid-cols-4 gap-4 h-full">
@@ -284,13 +285,13 @@
               />
               {{ else }}
               <div
-                class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+                class="rounded-t-lg h-48 w-full bg-neutral-200 dark:bg-neutral-700"
               ></div>
               {{ end }}
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class=" primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 {{ .Title | truncate 65 }}
               </h5>

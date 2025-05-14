@@ -1,116 +1,109 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome</title>
-    <link>https://example.org/</link>
-    <description>Recent content on Welcome</description>
+    <title>Welcome To Bytes Guide</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Apr 2025 16:48:26 -0500</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feathr: A Physics Based Social Network</title>
-      <link>https://example.org/portfolio/projects/feathr/</link>
+      <link>http://localhost:1313/portfolio/projects/feathr/</link>
       <pubDate>Tue, 29 Apr 2025 16:48:26 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/feathr/</guid>
+      <guid>http://localhost:1313/portfolio/projects/feathr/</guid>
       <description>&lt;p&gt;You’ll have to bear with me for this one, there’s a lot going on in this project. It’s probably the most ambitious thing I’ve worked on so far, both in terms of scope and in how deeply it pushed me to grow as a developer. But hey, that’s what makes it worth writing about.&lt;/p&gt;&#xA;&lt;p&gt;Earlier this year, I was fortunate enough to be on a team of four on a capstone-style project. We were essentially given a lot of liberty with the scope of the project: we could create a mobile app, a game, a research paper - anything we wanted. Naturally, instead of playing it safe, we decided we&amp;rsquo;d build Feathr.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I’m Excited About Gleam</title>
-      <link>https://example.org/blog/gleam-programming/</link>
+      <link>http://localhost:1313/blog/gleam-programming/</link>
       <pubDate>Fri, 25 Apr 2025 18:43:06 -0500</pubDate>
-      <guid>https://example.org/blog/gleam-programming/</guid>
+      <guid>http://localhost:1313/blog/gleam-programming/</guid>
       <description>&lt;h2 id=&#34;gleam-programming&#34;&gt;Gleam Programming&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be short about this one, I have recently learned about the Gleam programming language, and honestly? It&amp;rsquo;s sleek, well-documented, and has a &amp;ldquo;baby Elm meets Elixir&amp;rdquo; vibe to it, and I mean that in the best way possible.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re unaware: Gleam is a statically typed, functional programming language that compiles to Erlang and JavaScript. It boasts minimal syntax, a very friendly compiler, and runs on the BEAM (Erlang VM), so you get fault-tolerant, highly concurrent systems for free.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can Zed Replace Your Code Editor?</title>
-      <link>https://example.org/blog/trying-zed/</link>
+      <link>http://localhost:1313/blog/trying-zed/</link>
       <pubDate>Fri, 25 Apr 2025 18:13:40 -0500</pubDate>
-      <guid>https://example.org/blog/trying-zed/</guid>
+      <guid>http://localhost:1313/blog/trying-zed/</guid>
       <description>&lt;h2 id=&#34;first-impressions&#34;&gt;First Impressions&lt;/h2&gt;&#xA;&lt;p&gt;I’ve been using &lt;strong&gt;Zed&lt;/strong&gt; for a couple weeks now, and I’ll admit, it’s impressive.&lt;/p&gt;&#xA;&lt;p&gt;Zed is a new text editor built in &lt;strong&gt;Rust&lt;/strong&gt;, created by the folks who helped build Atom and later worked on VS Code. That lineage shows. It feels like someone took the good parts of those tools, cut the bloat, and added some modern power-user features. If you’ve been bouncing between &lt;strong&gt;VS Code&lt;/strong&gt; and &lt;strong&gt;Neovim&lt;/strong&gt;, Zed might just land right in the middle: fast, minimal, but smart.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Before Your Next Project, Use D2</title>
-      <link>https://example.org/blog/architect-with-d2/</link>
+      <link>http://localhost:1313/blog/architect-with-d2/</link>
       <pubDate>Fri, 25 Apr 2025 18:12:04 -0500</pubDate>
-      <guid>https://example.org/blog/architect-with-d2/</guid>
+      <guid>http://localhost:1313/blog/architect-with-d2/</guid>
       <description>&lt;h2 id=&#34;what-is-d2&#34;&gt;What is D2?&lt;/h2&gt;&#xA;&lt;p&gt;D2 is a declarative diagramming language that allows you to architect and plan your software in a more verbose and &amp;ldquo;auto-beautified&amp;rdquo; way. In other words: code to diagram, and it looks pretty sweet! Even though D2 handles a lot of styling, there is no shortage of customizability. You can do everything from your own CSS-like styling, themes, images, layouts, fonts, and more. In this article, I will just give a brief overview on how D2 looks and feels, and at the end I will provide my opinion on why and what you should be applying this for.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Build Incredible Desktop Apps with Your Favorite Frontend Framework and Go</title>
-      <link>https://example.org/blog/wails-project-review/</link>
+      <link>http://localhost:1313/blog/wails-project-review/</link>
       <pubDate>Fri, 25 Apr 2025 18:06:55 -0500</pubDate>
-      <guid>https://example.org/blog/wails-project-review/</guid>
+      <guid>http://localhost:1313/blog/wails-project-review/</guid>
       <description>&lt;p&gt;If you’ve ever wanted to build a desktop app but hated the idea of learning yet another UI framework, Wails might be exactly what you’re looking for.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve only recently begun using Wails to build desktop apps with my usual frontend tech stack—React, Tailwind, etc., and I&amp;rsquo;ve been amazed at how simple the process is once you have everything set up. You build the frontend like any other web app, and Wails handles the bridge to Go on the backend. It&amp;rsquo;s like building a web app, but it&amp;rsquo;s native on your desktop with full system integrations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2</title>
-      <link>https://example.org/lessons/college-but-cheap-pt2/</link>
+      <link>http://localhost:1313/lessons/college-but-cheap-pt2/</link>
       <pubDate>Wed, 16 Apr 2025 13:56:49 -0500</pubDate>
-      <guid>https://example.org/lessons/college-but-cheap-pt2/</guid>
+      <guid>http://localhost:1313/lessons/college-but-cheap-pt2/</guid>
       <description>&lt;h2 id=&#34;reintroduction&#34;&gt;(Re)Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll waste no time! This is part two of series where I compare what I&amp;rsquo;ve learned in college and those courses with what I think are one-to-one comparisons. Same format as part one, each course will have a free and paid option, where the paid option has some sort of certificate attached with it. Let&amp;rsquo;s continue!&lt;/p&gt;&#xA;&lt;p&gt;Listed below are the courses I took my junior and senior year of college. You will notice there is more emphasis on theory and design patterns this last half. These courses will really solidify your knowledge in computer science, and even though they don&amp;rsquo;t pop up too often in day-to-day tasks, they are that &amp;lsquo;secret handshake&amp;rsquo; of CS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Driftcode: A TUI Tool for Leetcode Written In Go</title>
-      <link>https://example.org/portfolio/projects/driftcode/</link>
+      <link>http://localhost:1313/portfolio/projects/driftcode/</link>
       <pubDate>Thu, 10 Apr 2025 15:15:44 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/driftcode/</guid>
+      <guid>http://localhost:1313/portfolio/projects/driftcode/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m going to be honest with you: I don&amp;rsquo;t really like Leetcode problems. That might not surprise you, it&amp;rsquo;s not exactly a groundbreaking opinion. In fact, I&amp;rsquo;d wager that there are more people than not who are not too fond of them either. There&amp;rsquo;s certainly a nice &amp;ldquo;aha!&amp;rdquo; moment when you finally solve a problem. But the process? The painful process of trying to work out the question, struggling with edge cases, and wondering about arbitrary time complexity requirements? No thank you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bytes Guide: My Learning, Teaching, and Building Sandbox</title>
-      <link>https://example.org/portfolio/projects/bytes-guide/</link>
+      <link>http://localhost:1313/portfolio/projects/bytes-guide/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:54 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/bytes-guide/</guid>
+      <guid>http://localhost:1313/portfolio/projects/bytes-guide/</guid>
       <description>&lt;p&gt;What you&amp;rsquo;re reading now (yes, this site itself) is one of the most recent projects I&amp;rsquo;ve been tinkering with. And if you&amp;rsquo;re here, well, that means you&amp;rsquo;re already inside. Welcome to Bytes Guide! This isn&amp;rsquo;t just a blog or portfolio website. This is where I learn, play around, share, and eventually build towards something bigger.&lt;/p&gt;&#xA;&lt;p&gt;Let me explain what this website is about, how I constructed it, and why I think it&amp;rsquo;s worth your time (and mine).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skol Norse News: News to Video Platform</title>
-      <link>https://example.org/portfolio/projects/skol-norse-news/</link>
+      <link>http://localhost:1313/portfolio/projects/skol-norse-news/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:40 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/skol-norse-news/</guid>
+      <guid>http://localhost:1313/portfolio/projects/skol-norse-news/</guid>
       <description>&lt;h2 id=&#34;automating-event-reels-with-ai-and-code&#34;&gt;Automating Event Reels with AI and Code&lt;/h2&gt;&#xA;&lt;p&gt;I developed a video compiler service that took the events from my college event board and converted them into a 60 seconds long Instagram reel. It ran automatically, using CRON jobs to scrap both the events from the college and the city of Decorah. That CRON job would grab the data, clean it, and the save it into my sqlite database. I developed a text sentiment analysis algorithm that then assigned weight to each of the events inside the database that was based on time and date, how frequent the event was (for example, Sunday mass was a frequent event but you probably wouldn&amp;rsquo;t report on it every other day), and how much context it had. That weight would then help decide which events would be shown for that video (usually 5 or 6 events). That same algorithm could be use to pull keywords from event titles, which I then used to query the Unsplash API to get images to display while the event was being featured.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rizzopedia: Brainrot 🤝 ML</title>
-      <link>https://example.org/portfolio/projects/rizzopedia/</link>
+      <link>http://localhost:1313/portfolio/projects/rizzopedia/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:26 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/rizzopedia/</guid>
+      <guid>http://localhost:1313/portfolio/projects/rizzopedia/</guid>
       <description>&lt;h2 id=&#34;rizzopedia-a-ridiculously-dumb-app-that-actually-taught-me-a-bunch-of-things&#34;&gt;Rizzopedia: A Ridiculously Dumb App That Actually Taught Me a Bunch of Things&lt;/h2&gt;&#xA;&lt;p&gt;Rizzopedia was, in all honesty, a dumb project. Not dumb because it didn&amp;rsquo;t work, or because it was useless; more because it was built out of a meme. But that&amp;rsquo;s kind of what made it so fun. It was one of those &amp;ldquo;I wonder if I can.&amp;rdquo; thing that spirals out of control and turns into a fully deployed web app you never thought anyone would actually use. And then people did.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled</title>
-      <link>https://example.org/portfolio/projects/rate-my-caf/</link>
+      <link>http://localhost:1313/portfolio/projects/rate-my-caf/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:18 -0500</pubDate>
-      <guid>https://example.org/portfolio/projects/rate-my-caf/</guid>
+      <guid>http://localhost:1313/portfolio/projects/rate-my-caf/</guid>
       <description>&lt;p&gt;Rate My Caf was my first real attempt at a &amp;ldquo;full stack&amp;rdquo; app. And I&amp;rsquo;m using &amp;ldquo;full stack&amp;rdquo; in quotes because, in hindsight, it was one of the most elegantly insecure, messy, and bug-ridden apps I&amp;rsquo;ve ever made. But for all its sloppiness, it taught me a lot: and nearly got me booted from the college.&lt;/p&gt;&#xA;&lt;p&gt;The idea was simple: I wanted to build a site where students could review the cafeteria food in real time. If you&amp;rsquo;ve ever eaten at a college cafeteria, you know the experience can be&amp;hellip; inconsistent. Some days you walk in and it&amp;rsquo;s like Thanksgiving came early. Other days, you&amp;rsquo;re looking at what seems to be microwaved rubber posing as lasagna. It was a crapshoot every time. I figured, &amp;ldquo;Why not let students warn each other?&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1</title>
-      <link>https://example.org/lessons/college-but-cheap/</link>
+      <link>http://localhost:1313/lessons/college-but-cheap/</link>
       <pubDate>Thu, 10 Apr 2025 15:13:15 -0500</pubDate>
-      <guid>https://example.org/lessons/college-but-cheap/</guid>
+      <guid>http://localhost:1313/lessons/college-but-cheap/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this lesson, I&amp;rsquo;ll go over sorta a roadmap for the material you can expect to cover while in or preparing for college. For reference, I am a senior at Luther College in Decorah, IA and I majored in Computer Science and minored in Data Science. I am graduating this May with a 3.89 GPA, an additional scholarship in CS, and a few internships under my belt. Of course there are people who have done better, but hey, I&amp;rsquo;m happy with the outcome.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This Post Is Nothing (That’s the Point)</title>
-      <link>https://example.org/authors-corner/nothing/</link>
+      <link>http://localhost:1313/authors-corner/nothing/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>https://example.org/authors-corner/nothing/</guid>
+      <guid>http://localhost:1313/authors-corner/nothing/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ve got a whole bunch of boilerplate code. Widgets and components ready to be used with something. That&amp;rsquo;s how a good portion of this site started out to begin with too. And I&amp;rsquo;m going to be even more critical and say, that&amp;rsquo;s what this post is. It&amp;rsquo;s nothing really. No new ideas or thoughts. A filler, if you will.&lt;/p&gt;&#xA;&lt;p&gt;But although it is a placeholder, I still need to put something in it. What is that going to be? AI-generated text, lorem ipsum, the script from the Bee Movie? Not really a challenge, but something to consider. We&amp;rsquo;ve leaned so heavily on filler content to keep the process going: mock data, scaffolding, templates. So long as it holds the form, it&amp;rsquo;s doing its job.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to Bytes Guide!</title>
-      <link>https://example.org/about/</link>
+      <link>http://localhost:1313/blog/welcome-to-bytes-guide/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>https://example.org/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Welcome to Bytes Guide!</title>
-      <link>https://example.org/blog/welcome-to-bytes-guide/</link>
-      <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>https://example.org/blog/welcome-to-bytes-guide/</guid>
+      <guid>http://localhost:1313/blog/welcome-to-bytes-guide/</guid>
       <description>&lt;p&gt;&lt;em&gt;Launch. Okay here we go!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-space-for-building-learning-and-sharing&#34;&gt;A Space for Building, Learning, and Sharing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Bytes Guide&lt;/em&gt; is my little slice of the web: a combination portfolio, resume, and blog that I&amp;rsquo;ve built myself to learn, build, and share what I&amp;rsquo;m learning as I go. If you&amp;rsquo;re reading this, there&amp;rsquo;s a good chance you&amp;rsquo;re interested in what I&amp;rsquo;ve been doing, what I&amp;rsquo;m learning, or maybe just looking for some tech writing that isn&amp;rsquo;t like reading robot-generated documentation. Either way, you&amp;rsquo;re welcome.&lt;/p&gt;</description>
     </item>
   </channel>
