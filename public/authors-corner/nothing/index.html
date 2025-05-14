@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Feathr: A Physics Based Social Network</title>
+    <title>Bytes Guide | This Post Is Nothing (That’s the Point)</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -43,67 +43,28 @@
   </button>
 
   
-  <a href="https://example.org/portfolio/projects/feathr/">
+  <a href="https://example.org/authors-corner/nothing/">
     <img
       class="rounded-lg w-full h-128 object-cover mb-2"
-      src="/images/feathr.png"
-      alt="Feathr: A Physics Based Social Network"
+      src="/images/dummy-text-wars.png"
+      alt="This Post Is Nothing (That’s the Point)"
     />
   </a>
   
   <div class="container-fluid flex flex-col">
-    <h1 class="primary-font mt-5 text-5xl">Feathr: A Physics Based Social Network</h1>
-    <p class="secondary-font text-neutral-400 mt-1 py-0"></p>
-    <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by Vincent Buchner | Apr 29, 2025</p>
-    <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at April 29, 2025</p>
+    <h1 class="primary-font mt-5 text-5xl">This Post Is Nothing (That’s the Point)</h1>
+    <p class="secondary-font text-neutral-400 mt-1 py-0">Thank you for joining me! Now, what is this all about?</p>
+    <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by Vincent Buchner | Apr 8, 2025</p>
+    <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at April 8, 2025</p>
     <hr class="text-white opacity-50 my-4">
-    <p>You’ll have to bear with me for this one, there’s a lot going on in this project. It’s probably the most ambitious thing I’ve worked on so far, both in terms of scope and in how deeply it pushed me to grow as a developer. But hey, that’s what makes it worth writing about.</p>
-<p>Earlier this year, I was fortunate enough to be on a team of four on a capstone-style project. We were essentially given a lot of liberty with the scope of the project: we could create a mobile app, a game, a research paper - anything we wanted. Naturally, instead of playing it safe, we decided we&rsquo;d build Feathr.</p>
-<br>
-<h2 id="what-is-feathr">What is Feathr?</h2>
-<p>Essentially, Feathr is a physics-social network. Yes, you read that correctly: physics-social network. Social network sites are, by and large, location-independent: they show you what they think you might want to see, mediated through a hundred different algorithms. We flipped that around. Rather than bringing the world to the user, Feathr brings the user into the world. And that world, in particular, is a simulated world based on particle physics and flock behavior.</p>
-<br>
-<h2 id="a-different-social-network">A Different Social Network</h2>
-<p>Here&rsquo;s the big-picture concept:</p>
-<p>When a user joins Feathr, they&rsquo;re not merely plopped into a feed. They&rsquo;re plopped into a simulation as a particle. Think of it like a virtual world where you, as a user, are a particle that&rsquo;s randomly tossed into space.</p>
-<p>Once you&rsquo;re in the simulation, you&rsquo;re not alone. There are other players as particles. If your particle gets close to another person&rsquo;s, you get to see their posts and threads. The closer you get, the more you can view. It&rsquo;s content visibility depending on how close you get. If someone gets out of range, you can no longer view their posts. It mimics physical interaction in the real world but in a virtual environment.</p>
-<p>In order to control movement and interactions, we used the Boids algorithm to simulate flocking behavior: like the kind you&rsquo;d see in a school of birds or school of fish. Particles will align, avoid collisions, and move toward common directions. When users interact, thus, they naturally create social &ldquo;flocks,&rdquo; which are dynamic and come and go. It&rsquo;s beautiful, and is quite conceptually solid.</p>
-<br>
-<h3 id="three-platforms-one-ecosystem">Three Platforms, One Ecosystem</h3>
-<p>We didn&rsquo;t just stop at one platform. We decided to develop three related systems:</p>
-<br>
-<ul>
-<li>
-<p>• A mobile app for a more interactive, on-the-go experience.</p>
-</li>
-<li>
-<p>• A web app for broader reach and easier presentation.</p>
-</li>
-<li>
-<p>• An independent backend that took care of the simulation, user data, and messaging rules.</p>
-</li>
-</ul>
-<div class="container-fluid flex items-center justify-center">
-    <img src="/images/d2/senior-project-architecture.svg" alt="Architecture Diagram for Feathr by Vincent Buchner" width="500">
-</div>
-<br>
-<p>It was a full-stack project: each part had its own complexities. I was primarily working on the backend and the web frontend, so I&rsquo;ll talk more on those.</p>
-<br>
-<h2 id="backend-challenges-and-decisions">Backend Challenges and Decisions</h2>
-<p>Our backend was built utilizing Django REST Framework. It handled the actual real-time simulation loop. Oh, and the simulation itself? We wrote our own multithreaded game engine for it: because apparently we hate having free time.</p>
-<p>That simulation engine was really the heart of the system. It was continuously executing the source-of-truth simulation, calculating each particle in the system&rsquo;s position and state. It would, every so often, send snapshots to all connected clients. The client would then base its local rendering of the simulation on that snapshot. This real-time solution meant that we needed performance optimizations. One of the biggest challenges was to efficiently compute which particles were &ldquo;near&rdquo; each other since that decided visibility. To calculate this naively (i.e., compare each particle with all other particles) would have been a nightmare of time complexity.</p>
-<p>So we used KD Trees: a multi-dimensional spatial partitioning data structure that allows for efficient nearest-neighbor queries in multi-dimensional space. Think of a KD Tree as being like a binary search tree, except rather than splitting on one axis, recursively split on alternating axes (e.g., x, then y, then z). This allowed querying nearby particles in logarithmic instead of linear time, which crucial in maintaining performance and scalability.</p>
-<br>
-<h2 id="web-frontend-experience">Web Frontend Experience</h2>
-<p>The web frontend was built with Next.js, TailwindCSS, and shadcn/ui. I can&rsquo;t sing this stack&rsquo;s praises enough—it was fantastic.</p>
-<p>Next.js gave us server-side rendering, routing, and a good developer experience. TailwindCSS assisted us in styling quickly, flexibly, and reliably. Shadcn/ui provided us with clean, accessible component abstractions that saved us oodles of time. They collectively helped us create an interface which was responsive, modern, and actually nice to use, without dipping into design hell.</p>
-<h2 id="devops-and-deployment">DevOps and Deployment</h2>
-<p>We weren&rsquo;t just coding, we were deploying it as well. We had a full CI/CD pipeline, so whenever we pushed code, it ran our test suite and redeployed the project. And speaking of tests: we exceeded well over 85% test coverage in our backend. Not only did this help to catch regressions early, but it also gave us confidence in refactoring some of the more complex simulation logic.</p>
-<br>
-<h2 id="presentation-day">Presentation Day</h2>
-<p>Then, we demoed Feathr at our school&rsquo;s tech symposium. The demo was flawless, the frontend was smooth, and the simulation behaved as anticipated. That said, I still think we completely confused a large part of the audience. Trying to explain how KD Trees, boids, and a social network all play together in under 15 minutes was&hellip; ambitious. But it made an impact.</p>
-<p>Feathr was hard. It challenged us in ways I wasn&rsquo;t expecting: specifically on the backend with threading, simulation performance, and data serialization. But it also forced me to have to learn and produce something out the door that felt pretty unique.</p>
-<p>I&rsquo;m proud of what we built. And I don&rsquo;t say that easily. Who knows, maybe Feathr has a future beyond the classroom. For now, it is a testament to what can be achieved when you love a crazy idea and dedicate yourself to bringing it into the world.</p>
+    <p>You&rsquo;ve got a whole bunch of boilerplate code. Widgets and components ready to be used with something. That&rsquo;s how a good portion of this site started out to begin with too. And I&rsquo;m going to be even more critical and say, that&rsquo;s what this post is. It&rsquo;s nothing really. No new ideas or thoughts. A filler, if you will.</p>
+<p>But although it is a placeholder, I still need to put something in it. What is that going to be? AI-generated text, lorem ipsum, the script from the Bee Movie? Not really a challenge, but something to consider. We&rsquo;ve leaned so heavily on filler content to keep the process going: mock data, scaffolding, templates. So long as it holds the form, it&rsquo;s doing its job.</p>
+<p>But now we&rsquo;re entering this strange period when the filler itself is starting to look&hellip; credible. You can instruct a model to &ldquo;write a placeholder paragraph for a tech blog,&rdquo; and it will. Neat. Shiny. No errors. And for the most part, it even sounds like it has a clue what it&rsquo;s talking about. Perhaps it does.</p>
+<p>And what if filler isn&rsquo;t just a collection of Latin-sounding trash but real, readable paragraphs with structure and argument? Is that still filler if it&rsquo;s more readable than what you were going to say anyway? That&rsquo;s the part that I find myself going back to again and again. When does filler material become the real material? If you never fill it in, does it even count? If people do read it, comment on it, learn from it—was it ever a placeholder in the first place?</p>
+<p>I don&rsquo;t know. I just find it to be something to sit with for a moment. Especially for people building personal websites, portfolios, or blogs like this one. We start out with a structure, throw in some cards or a hero space, and suddenly we&rsquo;re sitting in front of blocks with &ldquo;Your text here&rdquo; in them. So we populate them. Sometimes with ideas. Sometimes with whatever gets the build past.</p>
+<p>And that isn&rsquo;t always a negative. I think there&rsquo;s something freeing about making room to be, even if you aren&rsquo;t yet ready with something profound to say. The world is full of very polished finished products. Maybe it&rsquo;s okay to leave a little room for a first draft.</p>
+<p>Anyway, this entry is a filler. But at least it&rsquo;s I&rsquo;m filling it with my thoughts and words.</p>
+<p>For now.</p>
 
   </div>
 </div>
