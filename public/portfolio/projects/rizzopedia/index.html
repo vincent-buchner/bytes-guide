@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Rizzopedia</title>
+    <title>Bytes Guide | Rizzopedia: Brainrot 🤝 ML</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -44,31 +44,120 @@
 
   
   <a href="http://localhost:1313/portfolio/projects/rizzopedia/">
-    <div
-      class="rounded-t-lg w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
-    >
-      <svg
-        class="w-10 h-10 text-gray-400"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
-          clip-rule="evenodd"
-        ></path>
-      </svg>
-    </div>
+    <img
+      class="rounded-lg w-full h-128 object-cover mb-2"
+      src="/images/rizzopedia.png"
+      alt="Rizzopedia: Brainrot 🤝 ML"
+    />
   </a>
   
   <div class="container-fluid flex flex-col">
-    <h1 class="primary-font mt-5 text-5xl">Rizzopedia</h1>
+    <h1 class="primary-font mt-5 text-5xl">Rizzopedia: Brainrot 🤝 ML</h1>
     <p class="secondary-font text-neutral-400 mt-1 py-0"></p>
     <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by Vincent Buchner | Apr 10, 2025</p>
     <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at April 10, 2025</p>
     <hr class="text-white opacity-50 my-4">
+    <h2 id="rizzopedia-a-ridiculously-dumb-app-that-actually-taught-me-a-bunch-of-things">Rizzopedia: A Ridiculously Dumb App That Actually Taught Me a Bunch of Things</h2>
+<p>Rizzopedia was, in all honesty, a dumb project. Not dumb because it didn&rsquo;t work, or because it was useless; more because it was built out of a meme. But that&rsquo;s kind of what made it so fun. It was one of those &ldquo;I wonder if I can.&rdquo; thing that spirals out of control and turns into a fully deployed web app you never thought anyone would actually use. And then people did.</p>
+<br>
+<h3 id="so-what-was-rizzopedia">So, what was Rizzopedia?</h3>
+<p>In essence, it was a web application where you could input any line of text: maybe a cringey pickup line or maybe something less subtle. It would then feed that sentence into a sentiment analysis algorithm that I had deployed. Based on some linguistic properties and some heuristics that were determined from web scrapped pickup lines, it would determine whether or not that sentence had rizz.</p>
+
+
+
+
+
+
+   
+
+<div
+  id="alert-border-1"
+  class="p-4 mb-4 border-t-4 dark:text-green-400 dark:bg-neutral-800 dark:border-green-800"
+  role="alert"
+>
+  <div class="flex items-center">
+    <svg
+      class="shrink-0 w-4 h-4 me-2"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path
+        d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"
+      />
+    </svg>
+    <span class="sr-only">Info</span>
+    <h3 class="text-lg font-medium">Define Rizz</h3>
+  </div>
+  <div class="mt-2 mb-4 text-sm">
     
+
+For beginners, "rizz" is Gen Z slang for charisma—particularly in a romantic or flirting situation. When someone says "you've got rizz," they mean you've got charm. So, of course, I thought: what if I were able to create an app that gives people's rizz a real-time judgment.
+
+
+  </div>
+</div>
+
+<br>
+<h3 id="building-the-backend">Building the Backend</h3>
+<p>I used Django as the framework in this case. I had dabbled with it a bit before but had never started from scratch with something that was actually deployed for other folks to use. The ORM and admin panel of Django enabled me to have a working backend up quickly, and it gave me scaffolding while I developed the things I was most interested in—text analysis.</p>
+<p>For the &ldquo;rizz detection&rdquo; algorithm, I did not venture out and train a deep neural net or anything of that sort. This was more of a lightweight, rules-based classifier, stealing from straightforward natural language processing libraries such as NLTK and spaCy. I looked at sentiment polarity, subjectivity, keyword frequency, and some weighted custom weights based on certain buzzwords or sentence patterns. If you said &ldquo;hey girl, are you a magician…&rdquo; you&rsquo;d probably get high rizz. If you said &ldquo;the mitochondria is the powerhouse of the cell,&rdquo; not so much.</p>
+<p>I could have used a pretrained model like BERT, or invoked an external sentiment API, but I did not wish to have things be slow, remote, and mystical. And some of the project goal was that I would learn. I was still quite new to machine learning and natural language processing, so this was a chance to experiment with ideas in a very absurd but tangible manner.</p>
+<br>
+<h3 id="frontend-and-user-experience">Frontend and User Experience</h3>
+<p>For the frontend, it was pretty simple. One input field, a submit button, and a results page that told you if your message had rizz—or didn&rsquo;t. No frills. No distractions. Just a clean UI.</p>
+<p>Even with the minimalism, I thought about how the response was framed. If you had rizz, you didn&rsquo;t just get a &ldquo;Yes.&rdquo; You got an over-the-top affirmation: &ldquo;Certified Rizz God.&rdquo; If not? &ldquo;Negative Rizz Detected. Try again.&rdquo; I wanted it to be playful. I mean, if you&rsquo;re making an app on pickup lines, you might as well go all in on the absurdity.</p>
+<br>
+<h4 id="going-live">Going Live</h4>
+<p>I decided to deploy the app and make it available for public use. I set it up on Railway, set up gunicorn and nginx, and sent the site live. I assumed maybe a couple of friends would try it out once, laugh, and never consider it again.</p>
+<p>What I did not expect was for word to spread. Within a couple of days, strangers were sharing with me screenshots of their rizz scores. Individuals were submitting jokes, testing each other, and even applying it on lunch breaks as a motivational tool.</p>
+<br>
+<h3 id="lessons-learned">Lessons Learned</h3>
+<p>Even though the concept was absurd, the project was a goldmine of learning. It forced me to think front to back—frontend, backend, deployment, user input, UX, and error handling. I could experiment with machine learning-like concepts, get to use Django&rsquo;s full feature set, and see how web apps come together end to end.</p>
+<p>It was my first real experience with production bugs, scaling weirdness, and working with anonymous user input. You quickly learn to appreciate all the things you didn&rsquo;t sanitize, all the edge cases you didn&rsquo;t handle, and all the ways your site can be misused (or just used more than you ever expected).</p>
+<br>
+
+
+
+
+
+
+ 
+
+<div
+  id="alert-border-1"
+  class="p-4 mb-4 border-t-4 dark:text-blue-400 dark:bg-neutral-800 dark:border-blue-800"
+  role="alert"
+>
+  <div class="flex items-center">
+    <svg
+      class="shrink-0 w-4 h-4 me-2"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path
+        d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"
+      />
+    </svg>
+    <span class="sr-only">Info</span>
+    <h3 class="text-lg font-medium">Where is it now?</h3>
+  </div>
+  <div class="mt-2 mb-4 text-sm">
+    
+
+Rizzopedia is currently down. I took it down since I didn't want to shell out money hosting something that, while fun, had served its purpose. I still have the source code, and I've thought about reviving it: maybe with a login system, leaderboards, or a system for users to save and compare their scores. But it's not something that I'm currently working on. I've shifted on to other projects, and I'm more excited about what I can create next.
+
+
+
+  </div>
+</div>
+
+<p>But I&rsquo;ll always regard Rizzopedia with affection. It was stupid. It was crazy. It was enjoyable. And above all, it was effective.</p>
+<p>Sometimes, learning best happens not through a well-defined, deeply scholarly project. Sometimes, it happens through creating something absurd and finding out where you end up.</p>
+
   </div>
 </div>
 

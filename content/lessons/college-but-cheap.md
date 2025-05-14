@@ -1,10 +1,10 @@
 +++
 date = '2025-04-10T15:13:15-05:00'
 draft = true
-title = 'Part 1: A $INSERT CS Degree (and the knowledge is free!)'
+title = 'A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1'
 description = "As a soon to be college grad, I look back at these last four years and say, 'Great, but what did I learn?'. The answer to that is here: I've curated a list of online courses that I think are an one-to-one experience to what you'll learn in college. I'll have both free and paid resources, where the paid one usually results in some sort of certificate for completion. This lesson is designed for students either in or about to go to college, hoping to accelerate their learning."
 [params]
-    image = '/images/college-but-free-pt1.png'
+    image = '/images/degree-pt1.png'
     author = 'Vincent Buchner'
     updated_at = '2025-04-10T15:12:17-05:00'
 +++
@@ -35,17 +35,6 @@ List below is a high level view of the specific CS course I took and what year I
 Although this post includes mostly everything you'll cover within the general CS major, it's important to keep in mind that <u>a college degree is still valuable</u> and that this path is not a direct substitute. College exceeds beyond just academia and coursework, and is a great way to build a social reputation and connect with others.
 {{< /alert >}}
 
-<!-- **Year Three (Junior Year)**
-
-- • CS-260: Computational Models
-- • CS-440: Database Management
-- • CS-360: Advanced Data Structures and Algorithms
-
-**Year Four (Senior Year)**
-
-- • CS-370: Programming Languages
-- • DS-420: Applied Machine Learning (took inside of CS)
-- • CS-490: Senior Project -->
 
 <br>
 
@@ -160,4 +149,4 @@ This is one of my favorite courses! With the knowledge you'll learn here, you'll
 <hr>
 <br>
 
-Hey, you're still here! Congratulations!! 🥳 This is big milestone, you made it half way through the CS degree! You have learned and covered so much, and now you can take this knowledge and go apply it in a professional setting. Along with course, keep in mind to practice social skills and working with people. It seems like navigating the job market can be it's own four credit course sometimes. But shoot your shot, it's time for that work to pay off. If you'd like to continuing your degree, visit <u>[part two](/college)</u> of this series. There will over some of the more advanced topics as well as theory. Hope to see you there!
+Hey, you're still here! Congratulations!! 🥳 This is big milestone, you made it half way through the CS degree! You have learned and covered so much, and now you can take this knowledge and go apply it in a professional setting. Along with course, keep in mind to practice social skills and working with people. It seems like navigating the job market can be it's own four credit course sometimes. But shoot your shot, it's time for that work to pay off. If you'd like to continuing your degree, visit <u>[part two](/lessons/college-but-cheap-pt2)</u> of this series. There will over some of the more advanced topics as well as theory. Hope to see you there!

@@ -2,3 +2,4 @@
 2. Before you start you're next project, learn D2
 3. Zed
 4. How to learn tech
+5. Wails: The Golang Tauri

@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/authors-corner/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Who is Arthur Morgan?</title>
+      <title>This Post Is Nothing (That’s the Point)</title>
       <link>http://localhost:1313/authors-corner/arthur-morgan/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
       <guid>http://localhost:1313/authors-corner/arthur-morgan/</guid>
-      <description>&lt;h2 id=&#34;who-is-he&#34;&gt;Who is he?&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;p&gt;You&amp;rsquo;ve got a whole bunch of boilerplate code. Widgets and components ready to be used with something. That&amp;rsquo;s how a good portion of this site started out to begin with too. And I&amp;rsquo;m going to be even more critical and say, that&amp;rsquo;s what this post is. It&amp;rsquo;s nothing really. No new ideas or thoughts. A filler, if you will.&lt;/p&gt;&#xA;&lt;p&gt;But although it is a placeholder, I still need to put something in it. What is that going to be? AI-generated text, lorem ipsum, the script from the Bee Movie? Not really a challenge, but something to consider. We&amp;rsquo;ve leaned so heavily on filler content to keep the process going: mock data, scaffolding, templates. So long as it holds the form, it&amp;rsquo;s doing its job.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

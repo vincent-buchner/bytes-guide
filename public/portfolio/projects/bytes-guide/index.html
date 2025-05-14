@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Bytes Guide</title>
+    <title>Bytes Guide | Bytes Guide: My Learning, Teaching, and Building Sandbox</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -44,31 +44,46 @@
 
   
   <a href="http://localhost:1313/portfolio/projects/bytes-guide/">
-    <div
-      class="rounded-t-lg w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
-    >
-      <svg
-        class="w-10 h-10 text-gray-400"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
-          clip-rule="evenodd"
-        ></path>
-      </svg>
-    </div>
+    <img
+      class="rounded-lg w-full h-128 object-cover mb-2"
+      src="/images/bytes-guide-post.png"
+      alt="Bytes Guide: My Learning, Teaching, and Building Sandbox"
+    />
   </a>
   
   <div class="container-fluid flex flex-col">
-    <h1 class="primary-font mt-5 text-5xl">Bytes Guide</h1>
+    <h1 class="primary-font mt-5 text-5xl">Bytes Guide: My Learning, Teaching, and Building Sandbox</h1>
     <p class="secondary-font text-neutral-400 mt-1 py-0"></p>
     <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by Vincent Buchner | Apr 10, 2025</p>
     <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at April 10, 2025</p>
     <hr class="text-white opacity-50 my-4">
-    
+    <p>What you&rsquo;re reading now (yes, this site itself) is one of the most recent projects I&rsquo;ve been tinkering with. And if you&rsquo;re here, well, that means you&rsquo;re already inside. Welcome to Bytes Guide! This isn&rsquo;t just a blog or portfolio website. This is where I learn, play around, share, and eventually build towards something bigger.</p>
+<p>Let me explain what this website is about, how I constructed it, and why I think it&rsquo;s worth your time (and mine).</p>
+<br>
+<h2 id="why-i-built-bytes-guide">Why I Built Bytes Guide</h2>
+<p>Reading tutorials and docs is great, but sooner or later, I have to build something to learn it inside and out. Somewhere along the line, I realized that most of my projects were just sitting in local directories, unfinished or unreleased. They were sometimes great; sometimes they were hacks. But they all helped me learn something. So I thought: why not chart the process? Not just the end result, but the ideas, learnings, and errors in between?</p>
+<p>Bytes Guide is where I try to open up and share more of what I&rsquo;m learning. If it&rsquo;s a silly app I built over the weekend, a new gadget I&rsquo;m toying with, or a coding concept that I finally understand, this is where I&rsquo;m going to post about it. I needed a space for my online play, and this website is that space.</p>
+<p>I also created Bytes Guide because I really do want to teach someday. Teaching, to me, is the best way of learning. It makes you slow down, take things apart, and learn them to the point where you can make them clear to someone else. This is what I want to arrive at.</p>
+<p>This site, therefore, is also a kind of resume-in-progress. Not the kind of &ldquo;hire me&rdquo; variety (though I do have a resume available here if you&rsquo;re interested), but more that I hope it will become a resource that future students will find useful. Maybe you&rsquo;re a beginner programmer just beginning to learn web development, or maybe you&rsquo;re just curious about how things are put together: either way, I hope you&rsquo;ll find something of interest here.</p>
+<p>I’ll be posting breakdowns of my projects, notes from what I’m reading or learning, and reflections on how things went. The posts may be raw and unpolished sometimes, but they’ll be real.</p>
+<br>
+<h2 id="tech-stack-hugo--tailwind">Tech Stack: HUGO + Tailwind</h2>
+<p>Now let’s get a bit technical because this is a site for nerds, after all.</p>
+<p>Bytes Guide is developed with HUGO and Tailwind CSS. HUGO is a static site generator that converts Markdown files into HTML pages at build time. It&rsquo;s wicked fast, and I appreciate how it incentivizes writing in plain Markdown. I can work on the content, commit it to Git, and boom—my site is live.</p>
+<p>Styling is handled with Tailwind, and that gives me utility-first CSS so I can layout and design in a very surprising pleasure. I can tune everything straight in my markup, and since I&rsquo;m not really a designer type, Tailwind helps me produce something that at least looks modern without me having to write a whole bunch of custom CSS classes.</p>
+<p>Honestly, the entire process of writing Markdown, compiling with HUGO, and styling with Tailwind feels so clean. It&rsquo;s like a developer-first experience, and that&rsquo;s what I was looking for.</p>
+<br>
+<h2 id="a-small-regret-not-using-nuxt">A Small Regret: Not Using Nuxt?</h2>
+<p>Of course, with that said, I&rsquo;ll say it: I&rsquo;ve had a little bit of tech stack regret.</p>
+<p>When I started writing for Bytes Guide, I actually thought about switching to Nuxt. Nuxt is a robust Vue framework with server-side rendering, file-based routing, in-built dynamic content support, and an incredible dev experience. It&rsquo;s widely adopted, has outstanding community support, and would make it easier to add things like authentication, dynamic routes, or even a full-fledged CMS later on.</p>
+<p>So yeah, I guess part of me wishes I&rsquo;d gone down the Nuxt route to start with, if only I ever want this site to move past static content. But I specifically wanted to use HUGO: it&rsquo;s quick, easy to deploy, and stunningly optimized for static blog and doc sites like this. It&rsquo;s not fancy, but it works, and that&rsquo;s all I need for now.</p>
+<p>If and when I&rsquo;m in the mood to take this project to the next level, maybe I&rsquo;ll port it over to Nuxt. Maybe I&rsquo;ll just make a second version. Maybe.</p>
+<br>
+<h2 id="explore-and-enjoy">Explore and Enjoy</h2>
+<p>So here&rsquo;s where we are for now. Bytes Guide is under construction, a living document. I am not trying to be perfect here. I just want to build, learn, and share. And if someone out there happens to pick up something helpful, motivational, or even merely just entertaining in what I&rsquo;m doing, well, that&rsquo;s a welcome bonus.</p>
+<p>If you want to see what I&rsquo;ve done before, check on the projects page. If you want to view what I&rsquo;m thinking through or considering, check out the blog posts. And if you&rsquo;re just dropping by for a look around, that&rsquo;s fine as well. Thanks for stopping by.</p>
+<p>There&rsquo;s a lot more to come - welcome to the ride.</p>
+
   </div>
 </div>
 

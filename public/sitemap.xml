@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/portfolio/projects/feathr/</loc>
+    <lastmod>2025-04-29T16:48:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-29T16:48:26-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/gleam-programming/</loc>
+    <lastmod>2025-04-25T18:43:06-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/trying-zed/</loc>
+    <lastmod>2025-04-25T18:13:40-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/architect-with-d2/</loc>
+    <lastmod>2025-04-25T18:12:04-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/wails-project-review/</loc>
+    <lastmod>2025-04-25T18:06:55-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/lessons/college-but-cheap-pt2/</loc>
     <lastmod>2025-04-16T13:56:49-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/lessons/</loc>
-    <lastmod>2025-04-16T13:56:49-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-16T13:56:49-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/projects/driftcode/</loc>
@@ -39,9 +54,6 @@
     <lastmod>2025-04-09T10:29:33-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors-corner/</loc>
-    <lastmod>2025-04-08T18:25:49-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/lessons/introduction/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/welcome-to-bytes-guide/</loc>

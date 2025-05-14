@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Rate My Caf</title>
+    <title>Bytes Guide | Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -44,31 +44,49 @@
 
   
   <a href="http://localhost:1313/portfolio/projects/rate-my-caf/">
-    <div
-      class="rounded-t-lg w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
-    >
-      <svg
-        class="w-10 h-10 text-gray-400"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
-          clip-rule="evenodd"
-        ></path>
-      </svg>
-    </div>
+    <img
+      class="rounded-lg w-full h-128 object-cover mb-2"
+      src="/images/rate-my-caf.png"
+      alt="Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled"
+    />
   </a>
   
   <div class="container-fluid flex flex-col">
-    <h1 class="primary-font mt-5 text-5xl">Rate My Caf</h1>
+    <h1 class="primary-font mt-5 text-5xl">Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled</h1>
     <p class="secondary-font text-neutral-400 mt-1 py-0"></p>
     <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by Vincent Buchner | Apr 10, 2025</p>
     <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at April 10, 2025</p>
     <hr class="text-white opacity-50 my-4">
-    
+    <p>Rate My Caf was my first real attempt at a &ldquo;full stack&rdquo; app. And I&rsquo;m using &ldquo;full stack&rdquo; in quotes because, in hindsight, it was one of the most elegantly insecure, messy, and bug-ridden apps I&rsquo;ve ever made. But for all its sloppiness, it taught me a lot: and nearly got me booted from the college.</p>
+<p>The idea was simple: I wanted to build a site where students could review the cafeteria food in real time. If you&rsquo;ve ever eaten at a college cafeteria, you know the experience can be&hellip; inconsistent. Some days you walk in and it&rsquo;s like Thanksgiving came early. Other days, you&rsquo;re looking at what seems to be microwaved rubber posing as lasagna. It was a crapshoot every time. I figured, &ldquo;Why not let students warn each other?&rdquo;</p>
+<p>So I built a little website. It was simply a dashboard where students could rate and review the food being served that day. No login, no hassle. You just came in, left your feedback, and boom: it was on the website. Other students could open the page and get a quick snapshot of what people were saying: &ldquo;Pizza&rsquo;s good today,&rdquo; &ldquo;Don&rsquo;t eat the tofu scramble,&rdquo; &ldquo;Dessert is fire.&rdquo; That kind of thing.</p>
+<br>
+<h3 id="the-stack-and-the-hacky-workarounds">The Stack (and the Hacky Workarounds)</h3>
+<p>I built the frontend in React. I was still pretty new to web dev at the time, so I cobbled together parts from tutorials and Stack Overflow responses, patched in some styling with some good ol&rsquo; Bootstrap styling, and hoped for the best. But the real twist—the backend—was operated exclusively with. Google Sheets.</p>
+<p>That&rsquo;s right, Google Sheets was my database.</p>
+<p>You can laugh, but for a small app like this, Sheets wasn&rsquo;t a bad choice. I used a Google Apps Script webhook to handle submissions, appending each review to the sheet and incrementing an aggregate score in real time. I even put in some basic filters to prevent spam or repeat entries. It was hacky, sure, but it worked. Above all, it enabled me to deliver something without needing to spin up a Postgres instance or set up an entire backend.</p>
+<br>
+<h3 id="the-plot-twist-i-got-blocked">The Plot Twist: I Got Blocked</h3>
+<p>Things got weird after students started using the site. Word spread fast. Students had rated meals using Rate My Caf within a few days, and the dashboard was being shared. I was stoked! I felt I&rsquo;d made something that people actually found useful.</p>
+<p>Then, one day, it broke.</p>
+<p>I couldn&rsquo;t get to the site anymore. Neither could anyone else. At first, I thought I&rsquo;d gone and broken something, but after a little digging, I found out it had been blocked by the college network.</p>
+<p>Sh*t.</p>
+<p>I called the campus IT department to ask what was going on. They put me on hold. When they came back, they said someone from dining services needed to speak with me. Specifically, the <em>head</em> of dining services.</p>
+<p>By now, I thought I was cooked. I wore a suit to the meeting, half expecting to be told that I&rsquo;d violated some obscure rule and was going to be expelled. I even packed my backpack like I&rsquo;d need to be off campus that day. Overdramatic, I know, but I was losing it.</p>
+<br>
+<h3 id="the-meeting">The Meeting</h3>
+<p>Surprisingly, the meeting was relaxed! The director of dining services wasn&rsquo;t angry. In fact, he was pretty interested in the whole project. He didn&rsquo;t mind if the site was live, but he had two requests: First, the data needed to be accessible to them so they could analyze it. Second, he wanted the site to be a bit more &ldquo;official&rdquo;: less meme-y and more like a real useful tool that might actually be used to improve food service.</p>
+<p>Fair enough.</p>
+<p>We had a wonderful conversation about transparency, student feedback, and the fact that the dining staff was genuinely interested in improving. They saw my project not as an attack, but as a chance to engage students in a more direct conversation about campus food. It wasn&rsquo;t what I expected, but I welcomed it and was actually a bit flattered.</p>
+<br>
+<h3 id="lessons-and-legacy">Lessons and Legacy</h3>
+<p>I never did resurrect Rate My Caf in its original form. With the buggy React codebase and the fragile Google Sheets setup, it was barely limping along. But I had parted on good terms with the dining staff, and they would occasionally reach out to me with questions or ideas. Even though the app itself is no longer running, the relationships I formed through that project were more important than any working codebase.</p>
+<p>Technically, it was a nightmare. I learned about dependency hell, race conditions, and validation the hard way. But from a <em>growth</em> perspective, Rate My Caf was precious. It taught me the merit of building something small and focused for a real community. It taught me to expect the unexpected: like getting called into a meeting with campus administrators over a food rating app. And above all, it taught me that shipping something, albeit imperfectly, is usually more valuable than waiting to get it perfect.</p>
+<br>
+<h3 id="whats-next">What&rsquo;s Next?</h3>
+<p>Will I ever revive it? Maybe. If I did, I&rsquo;d definitely use a more robust stack—probably Django or FastAPI on the backend and maybe Supabase or Postgres for the database. I&rsquo;d also add user accounts, moderation features, and some data visualizations. And of course, I&rsquo;d take security way more seriously this time.</p>
+<p>But for now, Rate My Caf lives on in my memory (and in some screenshots that I saved). It was a crazy, caffeine-fueled, bug-ridden experiment and I loved every minute of it.</p>
+
   </div>
 </div>
 

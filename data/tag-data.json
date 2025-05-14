@@ -1,0 +1,34 @@
+{
+    "python": {
+      "bg": "bg-blue-800",
+      "text": "text-white"
+    },
+    "javascript": {
+      "bg": "bg-yellow-500",
+      "text": "text-neutral-950"
+    },
+    "go": {
+      "bg": "bg-cyan-500",
+      "text": "text-white"
+    },
+    "rust": {
+      "bg": "bg-orange-800",
+      "text": "text-white"
+    },
+    "gleam": {
+      "bg": "bg-fuchsia-500",
+      "text": "text-white"
+    },
+    "java": {
+      "bg": "bg-red-600",
+      "text": "text-white"
+    },
+    "csharp": {
+      "bg": "bg-purple-800",
+      "text": "text-white"
+    },
+    "default": {
+      "bg": "bg-zinc-700",
+      "text": "text-white"
+    }
+  }

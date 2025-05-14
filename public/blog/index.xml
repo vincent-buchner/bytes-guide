@@ -6,14 +6,42 @@
     <description>Recent content in View Blogs on Welcome</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 18:43:06 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I’m Excited About Gleam</title>
+      <link>http://localhost:1313/blog/gleam-programming/</link>
+      <pubDate>Fri, 25 Apr 2025 18:43:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/gleam-programming/</guid>
+      <description>&lt;h2 id=&#34;gleam-programming&#34;&gt;Gleam Programming&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be short about this one, I have recently learned about the Gleam programming language, and honestly? It&amp;rsquo;s sleek, well-documented, and has a &amp;ldquo;baby Elm meets Elixir&amp;rdquo; vibe to it, and I mean that in the best way possible.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re unaware: Gleam is a statically typed, functional programming language that compiles to Erlang and JavaScript. It boasts minimal syntax, a very friendly compiler, and runs on the BEAM (Erlang VM), so you get fault-tolerant, highly concurrent systems for free.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Can Zed Replace Your Code Editor?</title>
+      <link>http://localhost:1313/blog/trying-zed/</link>
+      <pubDate>Fri, 25 Apr 2025 18:13:40 -0500</pubDate>
+      <guid>http://localhost:1313/blog/trying-zed/</guid>
+      <description>&lt;h2 id=&#34;first-impressions&#34;&gt;First Impressions&lt;/h2&gt;&#xA;&lt;p&gt;I’ve been using &lt;strong&gt;Zed&lt;/strong&gt; for a couple weeks now, and I’ll admit, it’s impressive.&lt;/p&gt;&#xA;&lt;p&gt;Zed is a new text editor built in &lt;strong&gt;Rust&lt;/strong&gt;, created by the folks who helped build Atom and later worked on VS Code. That lineage shows. It feels like someone took the good parts of those tools, cut the bloat, and added some modern power-user features. If you’ve been bouncing between &lt;strong&gt;VS Code&lt;/strong&gt; and &lt;strong&gt;Neovim&lt;/strong&gt;, Zed might just land right in the middle: fast, minimal, but smart.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Before Your Next Project, Use D2</title>
+      <link>http://localhost:1313/blog/architect-with-d2/</link>
+      <pubDate>Fri, 25 Apr 2025 18:12:04 -0500</pubDate>
+      <guid>http://localhost:1313/blog/architect-with-d2/</guid>
+      <description>&lt;h2 id=&#34;what-is-d2&#34;&gt;What is D2?&lt;/h2&gt;&#xA;&lt;p&gt;D2 is a declarative diagramming language that allows you to architect and plan your software in a more verbose and &amp;ldquo;auto-beautified&amp;rdquo; way. In other words: code to diagram, and it looks pretty sweet! Even though D2 handles a lot of styling, there is no shortage of customizability. You can do everything from your own CSS-like styling, themes, images, layouts, fonts, and more. In this article, I will just give a brief overview on how D2 looks and feels, and at the end I will provide my opinion on why and what you should be applying this for.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build Incredible Desktop Apps with Your Favorite Frontend Framework and Go</title>
+      <link>http://localhost:1313/blog/wails-project-review/</link>
+      <pubDate>Fri, 25 Apr 2025 18:06:55 -0500</pubDate>
+      <guid>http://localhost:1313/blog/wails-project-review/</guid>
+      <description>&lt;p&gt;If you’ve ever wanted to build a desktop app but hated the idea of learning yet another UI framework, Wails might be exactly what you’re looking for.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve only recently begun using Wails to build desktop apps with my usual frontend tech stack—React, Tailwind, etc., and I&amp;rsquo;ve been amazed at how simple the process is once you have everything set up. You build the frontend like any other web app, and Wails handles the bridge to Go on the backend. It&amp;rsquo;s like building a web app, but it&amp;rsquo;s native on your desktop with full system integrations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcome to Bytes Guide!</title>
       <link>http://localhost:1313/blog/welcome-to-bytes-guide/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
       <guid>http://localhost:1313/blog/welcome-to-bytes-guide/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Launch. Okay here we go!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thank you for joining me&lt;/p&gt;&#xA;&lt;h1 id=&#34;will-this-work&#34;&gt;Will this work?&lt;/h1&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;Launch. Okay here we go!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-space-for-building-learning-and-sharing&#34;&gt;A Space for Building, Learning, and Sharing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Bytes Guide&lt;/em&gt; is my little slice of the web: a combination portfolio, resume, and blog that I&amp;rsquo;ve built myself to learn, build, and share what I&amp;rsquo;m learning as I go. If you&amp;rsquo;re reading this, there&amp;rsquo;s a good chance you&amp;rsquo;re interested in what I&amp;rsquo;ve been doing, what I&amp;rsquo;m learning, or maybe just looking for some tech writing that isn&amp;rsquo;t like reading robot-generated documentation. Either way, you&amp;rsquo;re welcome.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
