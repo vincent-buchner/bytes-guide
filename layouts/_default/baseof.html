@@ -10,43 +10,53 @@
     />
     <link href="/css/global.css" rel="stylesheet" />
     <link href="/css/tailwind/output.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="/images/bytes-guide-logo.svg">
+    <link rel="icon" type="image/x-icon" href="/images/bytes-guide-logo.svg" />
   </head>
+  <!-- GOOGLE ANALYTICS -->
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-QKYX44Q1Y2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-QKYX44Q1Y2");
+  </script>
 
   <body class="min-w-[100vw] bg-neutral-950 dark:text-white secondary-font">
-
-    <main id="swup" class="transition-main">
-    {{ block "main" . }}{{ end }}
-    </main>
-    {{ partial "footer.html" . }}
-
-    {{ partial "sidebar" . }}
+    <main id="swup" class="transition-main">{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer.html" . }} {{ partial "sidebar" . }}
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <!-- Import Swup as ESM -->
     <script type="module">
-        import Swup from 'https://unpkg.com/swup@4?module';
-        const swup = new Swup();
+      import Swup from "https://unpkg.com/swup@4?module";
+      const swup = new Swup();
 
-        function initFlowbiteComponents() {
-          // Check if there are any carousels on the page
-          const carousels = document.querySelectorAll('[data-carousel]');
-          const dropdowns = document.querySelectorAll('[data-dropdown-toggle]');
+      function initFlowbiteComponents() {
+        // Check if there are any carousels on the page
+        const carousels = document.querySelectorAll("[data-carousel]");
+        const dropdowns = document.querySelectorAll("[data-dropdown-toggle]");
 
-          if (typeof initFlowbite === 'function') {
-              initFlowbite();
-          }
+        if (typeof initFlowbite === "function") {
+          initFlowbite();
+        }
       }
-      
+
       // Initialize components on first page load
-      document.addEventListener('DOMContentLoaded', function() {
-          initFlowbiteComponents();
+      document.addEventListener("DOMContentLoaded", function () {
+        initFlowbiteComponents();
       });
-      
+
       // Reinitialize components after each page transition
-      swup.hooks.on('content:replace', function() {
-          initFlowbiteComponents();
+      swup.hooks.on("content:replace", function () {
+        initFlowbiteComponents();
       });
     </script>
-</body>
+  </body>
 </html>
