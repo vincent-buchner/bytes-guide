@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resume on Welcome To Bytes Guide</title>
-    <link>http://localhost:61648/portfolio/</link>
+    <link>http://localhost:51025/portfolio/</link>
     <description>Recent content in Resume on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:61648/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51025/portfolio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -28,6 +28,11 @@
     font-style: normal;  
 }
 
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
 
 .logo-font {
     font-family: 'Dimitri', sans-serif;
