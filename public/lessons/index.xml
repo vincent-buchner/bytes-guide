@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lessons on Welcome To Bytes Guide</title>
-    <link>https://bytes-guide.netlify.app/lessons/</link>
+    <link>http://localhost:61648/lessons/</link>
     <description>Recent content in Lessons on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Apr 2025 13:56:49 -0500</lastBuildDate>
-    <atom:link href="https://bytes-guide.netlify.app/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61648/lessons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2</title>
-      <link>https://bytes-guide.netlify.app/lessons/college-but-cheap-pt2/</link>
+      <link>http://localhost:61648/lessons/college-but-cheap-pt2/</link>
       <pubDate>Wed, 16 Apr 2025 13:56:49 -0500</pubDate>
-      <guid>https://bytes-guide.netlify.app/lessons/college-but-cheap-pt2/</guid>
+      <guid>http://localhost:61648/lessons/college-but-cheap-pt2/</guid>
       <description>&lt;h2 id=&#34;reintroduction&#34;&gt;(Re)Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll waste no time! This is part two of series where I compare what I&amp;rsquo;ve learned in college and those courses with what I think are one-to-one comparisons. Same format as part one, each course will have a free and paid option, where the paid option has some sort of certificate attached with it. Let&amp;rsquo;s continue!&lt;/p&gt;&#xA;&lt;p&gt;Listed below are the courses I took my junior and senior year of college. You will notice there is more emphasis on theory and design patterns this last half. These courses will really solidify your knowledge in computer science, and even though they don&amp;rsquo;t pop up too often in day-to-day tasks, they are that &amp;lsquo;secret handshake&amp;rsquo; of CS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1</title>
-      <link>https://bytes-guide.netlify.app/lessons/college-but-cheap/</link>
+      <link>http://localhost:61648/lessons/college-but-cheap/</link>
       <pubDate>Thu, 10 Apr 2025 15:13:15 -0500</pubDate>
-      <guid>https://bytes-guide.netlify.app/lessons/college-but-cheap/</guid>
+      <guid>http://localhost:61648/lessons/college-but-cheap/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this lesson, I&amp;rsquo;ll go over sorta a roadmap for the material you can expect to cover while in or preparing for college. For reference, I am a senior at Luther College in Decorah, IA and I majored in Computer Science and minored in Data Science. I am graduating this May with a 3.89 GPA, an additional scholarship in CS, and a few internships under my belt. Of course there are people who have done better, but hey, I&amp;rsquo;m happy with the outcome.&lt;/p&gt;</description>
     </item>
   </channel>

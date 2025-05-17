@@ -27,7 +27,7 @@
   {{ if .Params.image }}
   <a href="{{ .Permalink }}">
     <img
-      class="rounded-lg w-full h-128 object-cover mb-2"
+      class="rounded-lg w-full h-48 sm:h-64 md:h-96 lg:h-128 object-cover mb-2"
       src="{{ .Params.image }}"
       alt="{{ .Title }}"
     />
@@ -55,9 +55,13 @@
   <div class="container-fluid flex flex-col">
     <h1 class="primary-font mt-5 text-5xl">{{.Title}}</h1>
     <p class="secondary-font text-neutral-400 mt-1 py-0">{{.Description}}</p>
-    <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">Written by {{.Params.author}} | {{ .Date.Format "Jan 2, 2006" }}</p>
-    <p class="secondary-font text-neutral-500 text-sm py-0">Last Updated at {{ .Params.updated_at | time.Format "January 2, 2006"  }}</p>
-    <hr class="text-white opacity-50 my-4">
+    <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">
+      Written by {{.Params.author}} | {{ .Date.Format "Jan 2, 2006" }}
+    </p>
+    <p class="secondary-font text-neutral-500 text-sm py-0">
+      Last Updated at {{ .Params.updated_at | time.Format "January 2, 2006" }}
+    </p>
+    <hr class="text-white opacity-50 my-4" />
     {{.Content}}
   </div>
 </div>
