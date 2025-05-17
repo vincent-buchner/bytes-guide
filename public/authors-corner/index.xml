@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors-Corners on Welcome To Bytes Guide</title>
-    <link>https://bytes-guide.netlify.app/authors-corner/</link>
+    <link>http://localhost:61648/authors-corner/</link>
     <description>Recent content in Authors-Corners on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Apr 2025 18:25:49 -0500</lastBuildDate>
-    <atom:link href="https://bytes-guide.netlify.app/authors-corner/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61648/authors-corner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Post Is Nothing (That’s the Point)</title>
-      <link>https://bytes-guide.netlify.app/authors-corner/nothing/</link>
+      <link>http://localhost:61648/authors-corner/nothing/</link>
       <pubDate>Tue, 08 Apr 2025 18:25:49 -0500</pubDate>
-      <guid>https://bytes-guide.netlify.app/authors-corner/nothing/</guid>
+      <guid>http://localhost:61648/authors-corner/nothing/</guid>
       <description>&lt;p&gt;You&amp;rsquo;ve got a whole bunch of boilerplate code. Widgets and components ready to be used with something. That&amp;rsquo;s how a good portion of this site started out to begin with too. And I&amp;rsquo;m going to be even more critical and say, that&amp;rsquo;s what this post is. It&amp;rsquo;s nothing really. No new ideas or thoughts. A filler, if you will.&lt;/p&gt;&#xA;&lt;p&gt;But although it is a placeholder, I still need to put something in it. What is that going to be? AI-generated text, lorem ipsum, the script from the Bee Movie? Not really a challenge, but something to consider. We&amp;rsquo;ve leaned so heavily on filler content to keep the process going: mock data, scaffolding, templates. So long as it holds the form, it&amp;rsquo;s doing its job.&lt;/p&gt;</description>
     </item>
   </channel>

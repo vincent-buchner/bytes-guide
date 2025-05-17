@@ -1365,6 +1365,11 @@
       height: calc(var(--spacing) * 90);
     }
   }
+  .md\:h-96 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 96);
+    }
+  }
   .md\:h-100 {
     @media (width >= 48rem) {
       height: calc(var(--spacing) * 100);
@@ -1516,6 +1521,11 @@
   .lg\:h-96 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 96);
+    }
+  }
+  .lg\:h-128 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 128);
     }
   }
   .lg\:w-96 {

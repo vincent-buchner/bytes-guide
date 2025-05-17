@@ -15,7 +15,7 @@
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="h-full">
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col h-full"
+            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col h-full"
           >
             {{ with $post.Params.image }}
             <img
@@ -25,7 +25,7 @@
             />
             {{ else }}
             <div
-              class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+              class="rounded-t-lg h-48 w-full bg-neutral-200 dark:bg-neutral-700"
             ></div>
             {{ end }}
             <div class="p-5 flex-grow flex flex-col">
@@ -144,7 +144,7 @@
           {{ range $postIndex := seq $startIdx (sub $endIdx 1) }} {{ with index
           $blogPosts $postIndex }}
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col"
+            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col"
           >
             <a href="{{ .Permalink }}">
               {{ with .Params.image }}
@@ -155,7 +155,7 @@
               />
               {{ else }}
               <div
-                class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+                class="rounded-t-lg h-48 w-full bg-neutral-200 dark:bg-neutral-700"
               ></div>
               {{ end }}
             </a>
@@ -286,7 +286,7 @@
               />
               {{ else }}
               <div
-                class="rounded-t-lg h-48 w-full bg-gray-200 dark:bg-gray-700"
+                class="rounded-t-lg h-48 w-full bg-neutral-200 dark:bg-neutral-700"
               ></div>
               {{ end }}
             </a>
