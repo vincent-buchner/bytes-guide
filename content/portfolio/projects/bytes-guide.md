@@ -32,7 +32,7 @@ I’ll be posting breakdowns of my projects, notes from what I’m reading or le
 ## Tech Stack: HUGO + Tailwind
 Now let’s get a bit technical because this is a site for nerds, after all.
 
-Bytes Guide is developed with HUGO and Tailwind CSS. HUGO is a static site generator that converts Markdown files into HTML pages at build time. It's wicked fast, and I appreciate how it incentivizes writing in plain Markdown. I can work on the content, commit it to Git, and boom—my site is live.
+Bytes Guide is developed with HUGO and Tailwind CSS. HUGO is a static site generator that converts Markdown files into HTML pages at build time. It's pretty fast, and I appreciate how it incentivizes writing in plain Markdown. I can work on the content, commit it to Git, and boom—my site is live.
 
 Styling is handled with Tailwind, and that gives me utility-first CSS so I can layout and design in a very surprising pleasure. I can tune everything straight in my markup, and since I'm not really a designer type, Tailwind helps me produce something that at least looks modern without me having to write a whole bunch of custom CSS classes.
 

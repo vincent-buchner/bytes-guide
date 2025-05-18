@@ -2,74 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:51025/portfolio/projects/feathr/</loc>
+    <loc>http://localhost:53944/authors-corner/</loc>
+    <lastmod>2025-05-17T18:44:02-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53944/authors-corner/keyboard-cowboy/</loc>
+    <lastmod>2025-05-17T18:44:02-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53944/</loc>
+    <lastmod>2025-05-17T18:44:02-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53944/portfolio/projects/feathr/</loc>
     <lastmod>2025-04-29T16:48:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/</loc>
-    <lastmod>2025-04-29T16:48:26-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:51025/blog/gleam-programming/</loc>
+    <loc>http://localhost:53944/blog/gleam-programming/</loc>
     <lastmod>2025-04-25T18:43:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/blog/trying-zed/</loc>
+    <loc>http://localhost:53944/blog/trying-zed/</loc>
     <lastmod>2025-04-25T18:13:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/blog/architect-with-d2/</loc>
+    <loc>http://localhost:53944/blog/architect-with-d2/</loc>
     <lastmod>2025-04-25T18:12:04-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/blog/wails-project-review/</loc>
+    <loc>http://localhost:53944/blog/wails-project-review/</loc>
     <lastmod>2025-04-25T18:06:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/lessons/college-but-cheap-pt2/</loc>
+    <loc>http://localhost:53944/lessons/college-but-cheap-pt2/</loc>
     <lastmod>2025-04-16T13:56:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/lessons/</loc>
+    <loc>http://localhost:53944/lessons/</loc>
     <lastmod>2025-04-16T13:56:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/projects/driftcode/</loc>
+    <loc>http://localhost:53944/portfolio/projects/driftcode/</loc>
     <lastmod>2025-04-10T15:15:44-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/projects/bytes-guide/</loc>
+    <loc>http://localhost:53944/portfolio/projects/bytes-guide/</loc>
     <lastmod>2025-04-10T15:14:54-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/projects/skol-norse-news/</loc>
+    <loc>http://localhost:53944/portfolio/projects/skol-norse-news/</loc>
     <lastmod>2025-04-10T15:14:40-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/projects/rizzopedia/</loc>
+    <loc>http://localhost:53944/portfolio/projects/rizzopedia/</loc>
     <lastmod>2025-04-10T15:14:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/projects/rate-my-caf/</loc>
+    <loc>http://localhost:53944/portfolio/projects/rate-my-caf/</loc>
     <lastmod>2025-04-10T15:14:18-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/lessons/college-but-cheap/</loc>
+    <loc>http://localhost:53944/lessons/college-but-cheap/</loc>
     <lastmod>2025-04-10T15:13:15-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/portfolio/</loc>
+    <loc>http://localhost:53944/portfolio/</loc>
     <lastmod>2025-04-09T19:40:28-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/about/</loc>
-    <lastmod>2025-04-09T14:26:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:51025/portfolio/projects/</loc>
+    <loc>http://localhost:53944/portfolio/projects/</loc>
     <lastmod>2025-04-09T10:29:33-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/authors-corner/</loc>
+    <loc>http://localhost:53944/authors-corner/nothing/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/authors-corner/nothing/</loc>
+    <loc>http://localhost:53944/about/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/blog/welcome-to-bytes-guide/</loc>
+    <loc>http://localhost:53944/blog/welcome-to-bytes-guide/</loc>
     <lastmod>2025-04-08T18:25:49-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/blog/</loc>
+    <loc>http://localhost:53944/blog/</loc>
     <lastmod>2025-04-08T12:06:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/home/</loc>
+    <loc>http://localhost:53944/home/</loc>
     <lastmod>2025-04-05T18:03:32-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51025/categories/</loc>
+    <loc>http://localhost:53944/categories/</loc>
   </url><url>
-    <loc>http://localhost:51025/tags/</loc>
+    <loc>http://localhost:53944/tags/</loc>
   </url>
 </urlset>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Welcome To Bytes Guide</title>
-    <link>http://localhost:51025/portfolio/projects/</link>
+    <link>http://localhost:53944/portfolio/projects/</link>
     <description>Recent content in Projects on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Apr 2025 16:48:26 -0500</lastBuildDate>
-    <atom:link href="http://localhost:51025/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53944/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feathr: A Physics Based Social Network</title>
-      <link>http://localhost:51025/portfolio/projects/feathr/</link>
+      <link>http://localhost:53944/portfolio/projects/feathr/</link>
       <pubDate>Tue, 29 Apr 2025 16:48:26 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/feathr/</guid>
+      <guid>http://localhost:53944/portfolio/projects/feathr/</guid>
       <description>&lt;p&gt;You’ll have to bear with me for this one, there’s a lot going on in this project. It’s probably the most ambitious thing I’ve worked on so far, both in terms of scope and in how deeply it pushed me to grow as a developer. But hey, that’s what makes it worth writing about.&lt;/p&gt;&#xA;&lt;p&gt;Earlier this year, I was fortunate enough to be on a team of four on a capstone-style project. We were essentially given a lot of liberty with the scope of the project: we could create a mobile app, a game, a research paper - anything we wanted. Naturally, instead of playing it safe, we decided we&amp;rsquo;d build Feathr.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Driftcode: A TUI Tool for Leetcode Written In Go</title>
-      <link>http://localhost:51025/portfolio/projects/driftcode/</link>
+      <link>http://localhost:53944/portfolio/projects/driftcode/</link>
       <pubDate>Thu, 10 Apr 2025 15:15:44 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/driftcode/</guid>
+      <guid>http://localhost:53944/portfolio/projects/driftcode/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m going to be honest with you: I don&amp;rsquo;t really like Leetcode problems. That might not surprise you, it&amp;rsquo;s not exactly a groundbreaking opinion. In fact, I&amp;rsquo;d wager that there are more people than not who are not too fond of them either. There&amp;rsquo;s certainly a nice &amp;ldquo;aha!&amp;rdquo; moment when you finally solve a problem. But the process? The painful process of trying to work out the question, struggling with edge cases, and wondering about arbitrary time complexity requirements? No thank you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bytes Guide: My Learning, Teaching, and Building Sandbox</title>
-      <link>http://localhost:51025/portfolio/projects/bytes-guide/</link>
+      <link>http://localhost:53944/portfolio/projects/bytes-guide/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:54 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/bytes-guide/</guid>
+      <guid>http://localhost:53944/portfolio/projects/bytes-guide/</guid>
       <description>&lt;p&gt;What you&amp;rsquo;re reading now (yes, this site itself) is one of the most recent projects I&amp;rsquo;ve been tinkering with. And if you&amp;rsquo;re here, well, that means you&amp;rsquo;re already inside. Welcome to Bytes Guide! This isn&amp;rsquo;t just a blog or portfolio website. This is where I learn, play around, share, and eventually build towards something bigger.&lt;/p&gt;&#xA;&lt;p&gt;Let me explain what this website is about, how I constructed it, and why I think it&amp;rsquo;s worth your time (and mine).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skol Norse News: News to Video Platform</title>
-      <link>http://localhost:51025/portfolio/projects/skol-norse-news/</link>
+      <link>http://localhost:53944/portfolio/projects/skol-norse-news/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:40 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/skol-norse-news/</guid>
+      <guid>http://localhost:53944/portfolio/projects/skol-norse-news/</guid>
       <description>&lt;h2 id=&#34;automating-event-reels-with-ai-and-code&#34;&gt;Automating Event Reels with AI and Code&lt;/h2&gt;&#xA;&lt;p&gt;I developed a video compiler service that took the events from my college event board and converted them into a 60 seconds long Instagram reel. It ran automatically, using CRON jobs to scrap both the events from the college and the city of Decorah. That CRON job would grab the data, clean it, and the save it into my sqlite database. I developed a text sentiment analysis algorithm that then assigned weight to each of the events inside the database that was based on time and date, how frequent the event was (for example, Sunday mass was a frequent event but you probably wouldn&amp;rsquo;t report on it every other day), and how much context it had. That weight would then help decide which events would be shown for that video (usually 5 or 6 events). That same algorithm could be use to pull keywords from event titles, which I then used to query the Unsplash API to get images to display while the event was being featured.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rizzopedia: Brainrot 🤝 ML</title>
-      <link>http://localhost:51025/portfolio/projects/rizzopedia/</link>
+      <link>http://localhost:53944/portfolio/projects/rizzopedia/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:26 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/rizzopedia/</guid>
+      <guid>http://localhost:53944/portfolio/projects/rizzopedia/</guid>
       <description>&lt;h2 id=&#34;rizzopedia-a-ridiculously-dumb-app-that-actually-taught-me-a-bunch-of-things&#34;&gt;Rizzopedia: A Ridiculously Dumb App That Actually Taught Me a Bunch of Things&lt;/h2&gt;&#xA;&lt;p&gt;Rizzopedia was, in all honesty, a dumb project. Not dumb because it didn&amp;rsquo;t work, or because it was useless; more because it was built out of a meme. But that&amp;rsquo;s kind of what made it so fun. It was one of those &amp;ldquo;I wonder if I can.&amp;rdquo; thing that spirals out of control and turns into a fully deployed web app you never thought anyone would actually use. And then people did.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rate My Caf: The Full Stack Dumpster Fire That Almost Got Me Expelled</title>
-      <link>http://localhost:51025/portfolio/projects/rate-my-caf/</link>
+      <link>http://localhost:53944/portfolio/projects/rate-my-caf/</link>
       <pubDate>Thu, 10 Apr 2025 15:14:18 -0500</pubDate>
-      <guid>http://localhost:51025/portfolio/projects/rate-my-caf/</guid>
+      <guid>http://localhost:53944/portfolio/projects/rate-my-caf/</guid>
       <description>&lt;p&gt;Rate My Caf was my first real attempt at a &amp;ldquo;full stack&amp;rdquo; app. And I&amp;rsquo;m using &amp;ldquo;full stack&amp;rdquo; in quotes because, in hindsight, it was one of the most elegantly insecure, messy, and bug-ridden apps I&amp;rsquo;ve ever made. But for all its sloppiness, it taught me a lot: and nearly got me booted from the college.&lt;/p&gt;&#xA;&lt;p&gt;The idea was simple: I wanted to build a site where students could review the cafeteria food in real time. If you&amp;rsquo;ve ever eaten at a college cafeteria, you know the experience can be&amp;hellip; inconsistent. Some days you walk in and it&amp;rsquo;s like Thanksgiving came early. Other days, you&amp;rsquo;re looking at what seems to be microwaved rubber posing as lasagna. It was a crapshoot every time. I figured, &amp;ldquo;Why not let students warn each other?&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
