@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=46513&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Driftcode: A TUI Tool for Leetcode Written In Go</title>
+    <title>Bytes Guide | The Ancient Board Game That&#39;ll Quietly Rewire Your Brain</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -56,64 +56,40 @@
   </button>
 
   
-  <a href="http://localhost:46513/portfolio/projects/driftcode/">
+  <a href="http://localhost:46513/authors-corner/learn-go/">
     <img
       class="rounded-lg w-full h-48 sm:h-64 md:h-96 lg:h-128 object-cover mb-2"
-      src="/images/driftcode.png"
-      alt="Driftcode: A TUI Tool for Leetcode Written In Go"
+      src="/images/go-board.png"
+      alt="The Ancient Board Game That&#39;ll Quietly Rewire Your Brain"
     />
   </a>
   
   <div class="container-fluid flex flex-col">
-    <h1 class="primary-font mt-5 text-5xl">Driftcode: A TUI Tool for Leetcode Written In Go</h1>
+    <h1 class="primary-font mt-5 text-5xl">The Ancient Board Game That&#39;ll Quietly Rewire Your Brain</h1>
     <p class="secondary-font text-neutral-400 mt-1 py-0"></p>
     <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">
-      Written by Vincent Buchner | Apr 10, 2025
+      Written by Vincent Buchner | May 21, 2025
     </p>
     <p class="secondary-font text-neutral-500 text-sm py-0">
-      Last Updated at April 10, 2025
+      Last Updated at May 21, 2025
     </p>
     <hr class="text-white opacity-50 my-4" />
-    <p>I&rsquo;m going to be honest with you: I don&rsquo;t really like Leetcode problems. That might not surprise you, it&rsquo;s not exactly a groundbreaking opinion. In fact, I&rsquo;d wager that there are more people than not who are not too fond of them either. There&rsquo;s certainly a nice &ldquo;aha!&rdquo; moment when you finally solve a problem. But the process? The painful process of trying to work out the question, struggling with edge cases, and wondering about arbitrary time complexity requirements? No thank you.</p>
-<p>But what most infuriates me about Leetcode is the way you&rsquo;re meant to practice. Their online editor, while it does work, is not particularly nice unless you&rsquo;re prepared to pay. A lot of basic development tools like debugging functionality, decent syntax coloring, or integration with your text editor of choice come with a cost. And that&rsquo;s always annoyed me. If I&rsquo;m going to wrestle through these problems, I at least want to do so in a place I&rsquo;m familiar with.</p>
-<p>That&rsquo;s what drove me to build Driftcode.</p>
-<br>
-<h2 id="what-is-driftcode">What is Driftcode?</h2>
-<p>Driftcode is a Terminal User Interface (TUI) tool which allows you to pull Leetcode problems onto your local machine. It&rsquo;s almost as though you&rsquo;re avoiding the Leetcode website altogether and instead building problem files locally—files which you can then edit in your environment, with your tools, and build or run as you see fit. You get your editor of choice: Neovim, VSCode, or even Emacs if that&rsquo;s your thing.</p>
-<p>In a sense, Driftcode is my passive-aggressive protest against the way technical interview preparation has been handled. Rather than sitting there and churning out problems in the browser, I thought to myself, I&rsquo;d rather code something that made the experience worth it. And in that process, ironically enough, I learned more than had I continued to stick with Leetcode practice.</p>
-<br>
-<h2 id="why-i-picked-golang">Why I Picked Golang</h2>
-<p>One of this project&rsquo;s largest successes was the fact that I built it using Go (Golang). I had tried playing around with Go before, but never had I committed to fully building something concrete with it.</p>
-<p>Go was a great choice. Its libraries are strong out of the box, and the language is so simple to use that it&rsquo;s perfect for building fast, efficient CLIs. I didn&rsquo;t have to wrestle layers of abstraction or setup; I could just dive in. It was productive. Fun, even.</p>
-<p>And let’s not ignore the fact that compiling a statically typed, single-binary CLI tool that “just works” across machines is deeply satisfying. I’d honestly love to build more tools in Go going forward.</p>
-<br>
-<h2 id="how-driftcode-works">How Driftcode Works</h2>
-<p>Driftcode depends upon <u><a href="https://github.com/alfaarghya/alfa-leetcode-api">Alfa Arghya&rsquo;s REST API</a></u> in order to acquire problem data to download. That API provides metadata about Leetcode questions: the question title, the difficulty level, the prompt, tags, and so on. Everything you&rsquo;d otherwise scroll to see on the site. With that information once I have it, Driftcode makes it pretty and deploys it in your local workspace.</p>
-<p>To get the tool to be more responsive and allow for fast lookup/filtering, I have also incorporated an SQLite database. That allows you to filter questions by difficulty, tags, or title, and build a local working file automatically without having to make a call to the API every time. It&rsquo;s efficient, quick, and doesn&rsquo;t require internet access once the questions are cached.</p>
-<p>I kept the database schema relatively easy, mostly because I didn&rsquo;t want to over-engineer. I only needed to store and index a few fields, and SQLite was the perfect lightweight solution. No extra servers, no messy setup.</p>
-<br>
-<h2 id="what-i-learned-and-whats-next">What I Learned (and What&rsquo;s Next)</h2>
-<p>This project was very educational. Not only in Golang and calling external APIs, but also in packaging, dependency management, and making tools that actually make my life easier.</p>
-<p>It also demonstrated to me that making something useful doesn&rsquo;t necessarily mean making something complicated. Driftcode is relatively simple, yet it gets rid of a real nuisance I had. That alone was worth doing.</p>
-<p>I&rsquo;m not actively engaged on it right now. Like many side projects, it did what it needed to do and has been sitting quietly in my repositories ever since. That being said, I do think there&rsquo;s room for optimization.</p>
-<p>If I were to return to work on it, I&rsquo;d like to:</p>
-<br>
+    <p>The last few months, I&rsquo;ve been attempting to learn how to play the board game Go. It&rsquo;s a thousands-of-years-old game that&rsquo;s deceptively easy-appearing but quite complicated. I was extremely bad when I first started. Like, seriously bad. There are beginner bots I still can&rsquo;t defeat on some days, and I&rsquo;ve had games where I lose embarrassingly fast.</p>
+<p>But lately, I’ve gotten a little bit better! And wow, this game has subtly taught me so much more than just where to place stones on a board.</p>
+<p>For those who are unfamiliar, Go is played on a grid—a 19x19 board is most traditional, but 13x13 and 9x9 versions are used for quicker gameplay and to learn. I play solely 9x9 for now because it&rsquo;s just slightly more manageable while I&rsquo;m trying to get my head around it all. Despite the smaller board, it&rsquo;s not short on tactics.</p>
+<p>Let us take a step back and appreciate just how complex Go can get. The number of legal board positions on a 19x19 board is estimated to be higher than the number of atoms in the observable universe. Yeah. There are more than 10^170 possible positions. For comparison, chess has a little over 10^50. All in front of you, as white and black stones</p>
+<p>And yet, the rules of play are elegantly simple. You play stones on intersections with the goal of surrounding territory, and whoever has the most territory at the end wins. Simple, until it isn&rsquo;t.</p>
+<p>Go has taught me patience in a way that few games or experiences have. I have learned to combat the urge to attack first. It&rsquo;s a game that incentivizes defense, preparation, and establishing your own security before expanding into enemy territory. I&rsquo;ve seen this lesson play out time and time again: the player who overextends or attacks too early is the one who loses. Build up your base, secure your stones, and only then think about offense. There&rsquo;s something deeply metaphorical about that, especially in a world that incessantly pushes us towards speed and aggression.</p>
+<p>And mistakes? Oh man, the game is full of them. I make mistakes every other move, but Go also teaches you how to recover. One mistake doesn&rsquo;t need to be game over. Sometimes you can improvise. Sometimes you can sacrifice a group to support another area of the board. And sometimes? You just get destroyed, but you know why, and you move on. That&rsquo;s what keeps me coming back: it&rsquo;s tough, but never unfair.&quot;</p>
+<p>Here are some of the sites I&rsquo;ve used to learn:</p>
 <ul>
-<li>
-<p>• Introduce a config system whereby users can specify default languages, editors, and output folders.</p>
-</li>
-<li>
-<p>• Improve the cache and sync logic with the API.</p>
-</li>
-<li>
-<p>• Add code submission and result retrieval (more difficult, since Leetcode does not have a public submission endpoint).</p>
-</li>
+<li>BadukPop (highly recommend)</li>
+<li>The Interactive Way to Go</li>
+<li>GoKibitz</li>
 </ul>
-<br>
-<h2 id="final-thoughts">Final Thoughts</h2>
-<p>Leetcode may not be fun. But making tools to avoid it? That&rsquo;s another thing. Driftcode enabled me to regain some control over a process that was maddening and rigid. And in doing that, I picked up more than I thought I would—I enjoyed learning it.</p>
-<br>
-<p><u><a href="https://github.com/vincent-buchner/driftcode">Github</a></u></p>
+<p>There’s also something very personal about how people play. Some are aggressive. Some are patient. Some chase fights. Some build walls. In a way, your Go style becomes a mirror of your personality. And if you’re not careful, it’ll expose your bad habits too.</p>
+<p>In any case, I&rsquo;m still learning. I still mess up. I still get beaten by bots. But I love it. If you&rsquo;re even a little bit interested, I would highly recommend giving Go a shot. It&rsquo;s free, it&rsquo;s ancient, and it&rsquo;s still one of the world&rsquo;s most respected strategy games.</p>
+<p>If anyone wants to play, I&rsquo;m always up for it.</p>
 
   </div>
 </div>
