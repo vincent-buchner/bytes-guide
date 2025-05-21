@@ -15,7 +15,7 @@
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <div class="h-full">
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col h-full"
+            class=" border rounded-lg shadow bg-neutral-800 border-gray-700 flex flex-col h-full"
           >
             {{ with $post.Params.image }}
             <img
@@ -30,7 +30,7 @@
             {{ end }}
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-white"
               >
                 {{ $post.Title | truncate 65 }}
               </h5>
@@ -143,7 +143,7 @@
           {{ range $postIndex := seq $startIdx (sub $endIdx 1) }} {{ with index
           $blogPosts $postIndex }}
           <div
-            class="bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 flex flex-col"
+            class=" border b rounded-lg shadow bg-neutral-800 border-gray-700 flex flex-col"
           >
             <a href="{{ .Permalink }}">
               {{ with .Params.image }}
@@ -160,7 +160,7 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-white"
               >
                 {{ .Title | truncate 65 }}
               </h5>
@@ -274,7 +274,7 @@
           {{ range $postIndex := seq $startIdx (sub $endIdx 1) }} {{ with index
           $blogPosts $postIndex }}
           <div
-            class="shadow dark:bg-neutral-800 dark:border-neutral-700 flex flex-col transition-transform transform hover:translate-y-[-5px]"
+            class="shadow bg-neutral-800 dborder-neutral-700 flex flex-col transition-transform transform hover:translate-y-[-5px]"
           >
             <a href="{{ .Permalink }}">
               {{ with .Params.image }}
@@ -291,7 +291,7 @@
             </a>
             <div class="p-5 flex-grow flex flex-col">
               <h5
-                class="primary-font text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="primary-font text-xl font-bold tracking-tight text-white"
               >
                 {{ .Title | truncate 65 }}
               </h5>
