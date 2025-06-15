@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/lessons/learn-vim/</loc>
+    <lastmod>2025-06-15T13:12:06-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lessons/</loc>
+    <lastmod>2025-06-15T13:12:06-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-15T13:12:06-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/authors-corner/</loc>
     <lastmod>2025-06-05T11:42:45-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors-corner/transition-periods/</loc>
-    <lastmod>2025-06-05T11:42:45-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-05T11:42:45-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors-corner/learn-go/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2025-04-25T18:06:55-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/lessons/college-but-cheap-pt2/</loc>
-    <lastmod>2025-04-16T13:56:49-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/lessons/</loc>
     <lastmod>2025-04-16T13:56:49-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/projects/driftcode/</loc>

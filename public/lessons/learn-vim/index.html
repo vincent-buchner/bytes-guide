@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bytes Guide | Lessons</title>
+    <title>Bytes Guide | How I Think You Should Learn Vim (Without Losing Your Mind)</title>
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
@@ -30,6 +30,7 @@
 
   <body class="min-w-[100vw] bg-neutral-950 dark:text-white secondary-font">
     <main id="swup" class="transition-main">
+
 <div class="container mx-auto px-4 py-8">
   <button
     onclick="history.back()"
@@ -53,167 +54,84 @@
     </svg>
     Go back
   </button>
-  <h1 class="text-4xl font-bold mb-8 text-center primary-font">Lessons</h1>
 
   
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    
+  <a href="http://localhost:1313/lessons/learn-vim/">
+    <img
+      class="rounded-lg w-full h-48 sm:h-64 md:h-96 lg:h-128 object-cover mb-2"
+      src="/images/learn-vim.png"
+      alt="How I Think You Should Learn Vim (Without Losing Your Mind)"
+    />
+  </a>
+  
+  <div class="container-fluid flex flex-col">
+    <h1 class="primary-font mt-5 text-5xl">How I Think You Should Learn Vim (Without Losing Your Mind)</h1>
+    <p class="secondary-font text-neutral-400 mt-1 py-0">Or teach your AI how to...</p>
+    <p class="secondary-font text-neutral-500 mt-4 text-sm py-0">
+      Written by Vincent Buchner | Jun 15, 2025
+    </p>
+    <p class="secondary-font text-neutral-500 text-sm py-0">
+      Last Updated at June 15, 2025
+    </p>
+    <hr class="text-white opacity-50 my-4" />
+    <p>This post is primarily about the approach that I think you should take if you want to learn Vim.</p>
+<p>And actually, I should be clearer and speak in terms of Vim keybinds. Vim keybindings allow you to work on your code without ever having to pick up the mouse. When they&rsquo;re second nature, utilizing them will be as natural as having an extra pair of hands: precise, effective, and fast. While most developers in the modern era rely on AI to code or autocomplete (which is great), I still feel that Vim keybindings are one of the most effective things you can learn as a programmer.</p>
+<p>Now, just to put this out there, I&rsquo;m not a Vim-only fanatic. I do have Neovim set up and it&rsquo;s great, but my default is VSCode with the Vim extension. I&rsquo;ve found this setup much more user-friendly, especially for large projects. For tiny scripts or one-off changes, I&rsquo;ll use Neovim. But for most projects, I use VSCode.</p>
+<p>Neovim is responsive and feels incredibly powerful, but it&rsquo;s daunting to set up. It&rsquo;s time and effort that simply leave you at the point where you&rsquo;re ready to start your actual project. I find myself idealizing Neovim, setting it up, getting bored before I even write any code, and switching back to VSCode. Wash, rinse, repeat.But anyway, on to the actual keybinds and learning Vim properly.</p>
+<h2 id="getting-started-with-the-basics">Getting Started with the Basics</h2>
+<p>Let&rsquo;s talk about the basics—the things that are absolutely vital in understanding how Vim works before we get into plugins and fancy macros.</p>
+<h3 id="modes">Modes</h3>
+<p>Vim is unlike most editors. It has modes. You&rsquo;ll be spending most of your time switching between these:</p>
+<ul>
+<li>◾ Normal mode: Where you navigate around and edit text.</li>
+<li>◾ Insert mode: Where you type in text (like you&rsquo;re used to).</li>
+<li>◾ Visual mode: For selection of text.</li>
+<li>◾ Command mode: Where you save, quit, or search.</li>
+</ul>
+<p><code>ESC</code> quits anything. <code>i</code> goes into insert mode. <code>v</code> enters visual mode. <code>:</code> enters command mode.</p>
+<h3 id="movement-around">Movement around</h3>
+<p><code>h, j, k, l</code>: left, down, up, right. Weird at first, but it does get the better of you.</p>
+<p><code>w</code>: move forward by word.</p>
+<p><code>b</code>: move back by word.
+<code>gg</code>: move to file top.</p>
+<p><code>G</code>: move to bottom.</p>
+<h3 id="copying-and-pasting">Copying and Pasting</h3>
+<p>In Vim terms:</p>
+<ul>
+<li><code>yy</code>: yank (copy) a line.</li>
+<li><code>p</code>: paste after the cursor.</li>
+<li><code>P</code>: paste before the cursor.</li>
+<li><code>dd</code>: delete (cut) a line.</li>
+<li><code>u</code>: undo.</li>
+<li><code>Ctrl + r</code>: redo.</li>
+</ul>
+<p>In the editor vs in the system clipboard:</p>
+<p>Use <code>&quot;+y</code> to yank to system clipboard.
+Use <code>&quot;+p</code> to paste from system clipboard.</p>
+<h3 id="re-centering">Re-centering</h3>
+<p>Super underrated: <code>zz</code> will center the line you’re on. Helpful when scrolling through long files.</p>
+<h4 id="some-of-my-custom-keybinds">Some of My Custom Keybinds</h4>
+<p>Custom keybindings are what really make Vim feel like yours. A few I&rsquo;ve used all the time:</p>
+<p><code>Shift + J / K</code>: I remapped those to scroll up and down 5 lines at a time. Makes navigating faster.</p>
+<p><code>Leader key</code>: I&rsquo;ve bound my <code>&lt;leader&gt;</code> key to the spacebar. Much nicer on the fingers than the default. With the leader key, I can set up keybinds like <code>&lt;leader&gt;ff</code> to find files, <code>&lt;leader&gt;w</code> to save, or <code>&lt;leader&gt;q</code> to quit.</p>
+<p>This is where your productivity really starts to add up. Small gains in keystrokes add up fast.</p>
+<h3 id="more-advanced-macros-and-recording">More Advanced: Macros and Recording</h3>
+<p>This is where Vim gets really magical.</p>
+<p>Press <code>q</code> and any letter (say q) to start recording.</p>
+<p>Do a series of actions.</p>
+<p>Press <code>q</code> again to end recording.</p>
+<p>Now every time you type <code>@q</code>, all those steps repeat.</p>
+<p>Example: you have to delete a line, go next, and paste there. You can record once and run 20 times through your file in one command. Highly useful when cleaning up messy data files or similar refactors.</p>
+<h3 id="starting-out-my-real-recommendation">Starting Out: My Real Recommendation</h3>
+<p>If you&rsquo;re new to Vim, don&rsquo;t start with Neovim. You&rsquo;ll be intimidated. You&rsquo;ll end up spending more time configuring your editor than learning how to use it.</p>
+<p>Start with VSCode + Vim extension. It gives you most of the keybinds and lets you learn muscle memory within a familiar framework.</p>
+<p>After you get comfortable, try to migrate to Neovim with something like LazyVim. It&rsquo;s a starter pre-configured with lots of handy tools so you don&rsquo;t have to write your entire setup from scratch.</p>
+<p>Don&rsquo;t rush. Learn incrementally. Take on one new keybind at a time and use it until it is second nature.</p>
+<h3 id="final-thoughts">Final Thoughts</h3>
+<p>Vim keybinds are not hipster hacker wannabe. They are about preserving flow. They permit you to compose, refactor, and travel through your code without breaking rhythm.</p>
+<p>Even should you not take the plunge and become a zealot Neovim convert, the time you spend learning at least a few Vim keybinds will accelerate you and make you more cognizant of how you operate with code.</p>
+<p>Just don&rsquo;t forget to actually write some code in the meantime.</p>
 
-    <div
-      class="max-w-sm rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-700"
-    >
-      
-      <a href="http://localhost:1313/lessons/learn-vim/">
-        <img
-          class="rounded-t-lg w-full h-48 object-cover"
-          src="static/images/leanr-vim.png"
-          alt="Learn Vim"
-        />
-      </a>
-      
-      <div class="p-5">
-        <a href="http://localhost:1313/lessons/learn-vim/">
-          <h5
-            class="text-2xl font-bold primary-font tracking-tight text-neutral-900 dark:text-white"
-          >
-            Learn Vim
-          </h5>
-          <span class="text-sm secondary-font text-gray-500 mb-4"
-            >Jun 15, 2025</span
-          >
-        </a>
-        <p class="my-3 seondary-font font-normal dark:text-neutral-400">
-          Or teach you AI how to...
-        </p>
-        <a
-          href="http://localhost:1313/lessons/learn-vim/"
-          class="inline-flex secondary-font items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Read more
-          <svg
-            class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
-      </div>
-    </div>
-
-    
-
-    <div
-      class="max-w-sm rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-700"
-    >
-      
-      <a href="http://localhost:1313/lessons/college-but-cheap-pt2/">
-        <img
-          class="rounded-t-lg w-full h-48 object-cover"
-          src="/images/degree-pt2.png"
-          alt="A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2"
-        />
-      </a>
-      
-      <div class="p-5">
-        <a href="http://localhost:1313/lessons/college-but-cheap-pt2/">
-          <h5
-            class="text-2xl font-bold primary-font tracking-tight text-neutral-900 dark:text-white"
-          >
-            A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2
-          </h5>
-          <span class="text-sm secondary-font text-gray-500 mb-4"
-            >Apr 16, 2025</span
-          >
-        </a>
-        <p class="my-3 seondary-font font-normal dark:text-neutral-400">
-          This is part two of my cheaper CS degree series. I am a soon to be college grad looking to reflect …
-        </p>
-        <a
-          href="http://localhost:1313/lessons/college-but-cheap-pt2/"
-          class="inline-flex secondary-font items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Read more
-          <svg
-            class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
-      </div>
-    </div>
-
-    
-
-    <div
-      class="max-w-sm rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-700"
-    >
-      
-      <a href="http://localhost:1313/lessons/college-but-cheap/">
-        <img
-          class="rounded-t-lg w-full h-48 object-cover"
-          src="/images/degree-pt1.png"
-          alt="A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1"
-        />
-      </a>
-      
-      <div class="p-5">
-        <a href="http://localhost:1313/lessons/college-but-cheap/">
-          <h5
-            class="text-2xl font-bold primary-font tracking-tight text-neutral-900 dark:text-white"
-          >
-            A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 1
-          </h5>
-          <span class="text-sm secondary-font text-gray-500 mb-4"
-            >Apr 10, 2025</span
-          >
-        </a>
-        <p class="my-3 seondary-font font-normal dark:text-neutral-400">
-          As a soon to be college grad, I look back at these last four years and say, &#39;Great, but what did I …
-        </p>
-        <a
-          href="http://localhost:1313/lessons/college-but-cheap/"
-          class="inline-flex secondary-font items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Read more
-          <svg
-            class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
-      </div>
-    </div>
-
-    
   </div>
 </div>
 </main>

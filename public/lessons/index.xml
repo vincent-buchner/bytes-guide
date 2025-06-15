@@ -6,8 +6,15 @@
     <description>Recent content in Lessons on Welcome To Bytes Guide</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Apr 2025 13:56:49 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jun 2025 13:12:06 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn Vim</title>
+      <link>http://localhost:1313/lessons/learn-vim/</link>
+      <pubDate>Sun, 15 Jun 2025 13:12:06 -0500</pubDate>
+      <guid>http://localhost:1313/lessons/learn-vim/</guid>
+      <description>&lt;p&gt;This post is primarily about the approach that I think you should take if you want to learn Vim.&lt;/p&gt;&#xA;&lt;p&gt;And actually, I should be clearer and speak in terms of Vim keybinds. Vim keybindings allow you to work on your code without ever having to pick up the mouse. When they&amp;rsquo;re second nature, utilizing them will be as natural as having an extra pair of hands: precise, effective, and fast. While most developers in the modern era rely on AI to code or autocomplete (which is great), I still feel that Vim keybindings are one of the most effective things you can learn as a programmer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A $1200, 1-to-1 CS Degree (and the knowledge is free!): Part 2</title>
       <link>http://localhost:1313/lessons/college-but-cheap-pt2/</link>
